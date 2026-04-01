@@ -1,0 +1,29 @@
+# Digest Diário — {{ date }}
+
+{{ editorial_note }}
+
+---
+
+{% for story in stories %}
+## {{ loop.index }}. {{ story.title }}
+
+**Fonte:** {{ story.source }} | **Data:** {{ story.date }} | **Área:** {{ story.focus_area }}
+
+🔗 [Leia o original]({{ story.link }})
+
+### O que aconteceu
+{{ story.what_happened }}
+
+### Por que importa
+{{ story.why_it_matters }}
+
+### Ângulo brasileiro
+{{ story.brazilian_angle }}
+
+### Ângulo de conteúdo
+{{ story.content_angle }}
+
+---
+
+{% endfor %}
+*Gerado automaticamente em {{ generation_timestamp }}*
