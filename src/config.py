@@ -115,7 +115,7 @@ def load_settings(project_root: Path | None = None) -> Settings:
     if smtp_host:
 ```
 
-**Arquivo 2: `main.py` — linha 103**
+
 
 Acesse:
 ```
