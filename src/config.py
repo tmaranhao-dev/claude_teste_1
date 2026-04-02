@@ -112,7 +112,14 @@ def load_settings(project_root: Path | None = None) -> Settings:
 
     smtp = None
     smtp_host = os.getenv("SMTP_HOST")
-    if smtp_host and delivery.method in ("email", "both"):
+    if smtp_host:
+```
+
+**Arquivo 2: `main.py` — linha 103**
+
+Acesse:
+```
+github.com/tmaranhao-dev/claude_teste_1/blob/main/main.py
         recipients_raw = os.getenv("EMAIL_TO", "")
         smtp = SmtpConfig(
             host=smtp_host,
