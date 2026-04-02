@@ -99,8 +99,8 @@ def run_pipeline() -> None:
         logger.error("Output generation failed: %s", e)
         return
 
-    # Step 5: Deliver (email if configured)
-    if settings.delivery.method in ("email", "both"):
+    # Step 5: Deliver (email if configured via delivery.method or SMTP env vars)
+    if settings.delivery.method in ("email", "both") or settings.smtp:
         deliver_email(md_path, json_path, settings)
 
     logger.info("Pipeline complete. Digest: %s", md_path.name)
