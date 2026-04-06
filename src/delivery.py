@@ -30,7 +30,8 @@ def deliver_email(
 
     # Build email
     msg = MIMEMultipart()
-    msg["Subject"] = f"Digest Diário — {md_path.stem.replace('digest-', '')}"
+    date_part = md_path.stem.replace(f"{settings.output_prefix}-", "", 1)
+    msg["Subject"] = f"{settings.email_subject_prefix} — {date_part}"
     msg["From"] = smtp.user
     msg["To"] = ", ".join(smtp.recipients)
 

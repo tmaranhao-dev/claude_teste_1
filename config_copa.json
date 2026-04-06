@@ -1,0 +1,75 @@
+{
+  "digest_type": "copa",
+  "output_prefix": "copa-2026",
+  "template_name": "copa-digest.md.j2",
+  "email_subject_prefix": "Copa 2026 Digest",
+  "num_stories": 5,
+  "min_brazil_stories": 2,
+  "language": "pt-br",
+  "max_feed_age_hours": 48,
+  "claude_model": "claude-sonnet-4-20250514",
+  "focus_areas": [
+    {
+      "id": "selecoes_jogadores",
+      "name": "Seleções & Jogadores",
+      "keywords": ["seleção", "convocação", "jogador", "técnico", "escalação", "squad", "roster", "coach", "player", "national team", "eliminatórias", "qualifiers", "Dorival", "CBF"]
+    },
+    {
+      "id": "organizacao_fifa",
+      "name": "Organização & FIFA",
+      "keywords": ["FIFA", "organização", "sede", "estádio", "venue", "host city", "stadium", "World Cup 2026", "Copa 2026", "Copa do Mundo", "regulamento", "format", "grupo", "chave", "sorteio", "draw"]
+    },
+    {
+      "id": "infraestrutura_sedes",
+      "name": "Infraestrutura & Sedes",
+      "keywords": ["infraestrutura", "estádio", "arena", "cidade-sede", "host city", "MetLife", "SoFi", "Azteca", "AT&T Stadium", "infrastructure", "construction", "obras", "ingresso", "ticket"]
+    },
+    {
+      "id": "mercado_transferencias",
+      "name": "Mercado & Transferências",
+      "keywords": ["transferência", "transfer", "mercado", "contrato", "contract", "valor", "negociação", "empréstimo", "loan", "janela", "window"]
+    },
+    {
+      "id": "transmissao_midia",
+      "name": "Transmissão & Mídia",
+      "keywords": ["transmissão", "broadcast", "TV", "streaming", "direitos", "rights", "Globo", "CazéTV", "cobertura", "coverage", "audiência", "ratings"]
+    },
+    {
+      "id": "torcida_cultura",
+      "name": "Torcida & Cultura",
+      "keywords": ["torcida", "fans", "torcedor", "supporter", "visto", "visa", "viagem", "travel", "hospedagem", "accommodation", "fan zone", "festa", "cultura", "mascote", "mascot"]
+    }
+  ],
+  "sources": {
+    "global": [
+      {"name": "FIFA Newsroom", "url": "https://www.fifa.com/rss", "lang": "en"},
+      {"name": "ESPN FC", "url": "https://www.espn.com/espn/rss/soccer/news", "lang": "en"},
+      {"name": "BBC Sport Football", "url": "https://feeds.bbci.co.uk/sport/football/rss.xml", "lang": "en"},
+      {"name": "The Guardian Football", "url": "https://www.theguardian.com/football/rss", "lang": "en"},
+      {"name": "L'Equipe", "url": "https://www.lequipe.fr/rss/actu_rss.xml", "lang": "fr"},
+      {"name": "Marca", "url": "https://e00-marca.uecdn.es/rss/futbol/mundial.xml", "lang": "es"}
+    ],
+    "brazil": [
+      {"name": "UOL Esporte", "url": "https://rss.uol.com.br/feed/esportes.xml", "lang": "pt-br"},
+      {"name": "ge.globo", "url": "https://ge.globo.com/rss/ultimas-noticias/", "lang": "pt-br"}
+    ]
+  },
+  "fallback_search_queries": [
+    "Copa do Mundo 2026",
+    "FIFA World Cup 2026",
+    "seleção brasileira Copa 2026",
+    "World Cup 2026 qualifiers",
+    "eliminatórias Copa do Mundo",
+    "Copa 2026 sedes cidades",
+    "Brazil national team World Cup"
+  ],
+  "delivery": {
+    "method": "local",
+    "output_dir": "output"
+  },
+  "schedule": {
+    "hour": 7,
+    "minute": 10,
+    "timezone": "America/Sao_Paulo"
+  }
+}

@@ -1,0 +1,46 @@
+name: Copa do Mundo 2026 — Daily Digest
+
+on:
+  schedule:
+    # 7:10 AM São Paulo (UTC-3) = 10:10 UTC
+    - cron: "10 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  copa-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Copa 2026 digest pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python main.py --once --config config_copa.json
+
+      - name: Upload digest artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: copa-2026-digest-${{ github.run_id }}
+          path: output/copa-2026-*
+          retention-days: 90

@@ -53,14 +53,14 @@ def setup_logging(project_root: Path) -> None:
     root_logger.addHandler(console_handler)
 
 
-def run_pipeline() -> None:
+def run_pipeline(config_path: Path | None = None) -> None:
     """Execute the full digest pipeline: fetch → curate → summarize → output → deliver."""
     logger = logging.getLogger("pipeline")
     logger.info("=" * 60)
     logger.info("Starting daily digest pipeline")
 
     try:
-        settings = load_settings(PROJECT_ROOT)
+        settings = load_settings(PROJECT_ROOT, config_path=config_path)
     except (ValueError, FileNotFoundError) as e:
         logger.error("Configuration error: %s", e)
         return
@@ -121,6 +121,12 @@ def main() -> None:
         action="store_true",
         help="Start the scheduler (runs daily at configured time)",
     )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default=None,
+        help="Path to a custom config JSON file (default: config.json)",
+    )
 
     args = parser.parse_args()
 
@@ -132,17 +138,19 @@ def main() -> None:
     setup_logging(PROJECT_ROOT)
     logger = logging.getLogger("main")
 
+    config_path = Path(args.config) if args.config else None
+
     if args.once:
         logger.info("Running in single-run mode")
-        run_pipeline()
+        run_pipeline(config_path=config_path)
     elif args.schedule:
         logger.info("Running in scheduler mode")
         try:
-            settings = load_settings(PROJECT_ROOT)
+            settings = load_settings(PROJECT_ROOT, config_path=config_path)
         except (ValueError, FileNotFoundError) as e:
             logger.error("Configuration error: %s", e)
             sys.exit(1)
-        start_scheduler(run_pipeline, settings)
+        start_scheduler(lambda: run_pipeline(config_path=config_path), settings)
 
 
 if __name__ == "__main__":

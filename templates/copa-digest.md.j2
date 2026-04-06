@@ -1,0 +1,40 @@
+# ⚽ Copa do Mundo 2026 — Digest {{ date }}
+
+{{ editorial_note }}
+
+---
+
+{% for story in stories %}
+## {{ loop.index }}. {{ story.title }}
+
+**Fonte:** {{ story.source }} | **Data:** {{ story.date }}
+
+🔗 [Leia o original]({{ story.link }})
+
+### O que aconteceu
+{{ story.what_happened }}
+
+### Por que importa
+{{ story.why_it_matters }}
+
+### 🇧🇷 Fator Brasil
+{{ story.fator_brasil }}
+
+{% if story.frase_do_dia %}
+### 💬 Frase do dia
+> {{ story.frase_do_dia }}
+
+{% endif %}
+### 🎯 Ângulo de conteúdo
+{{ story.content_angle }}
+
+---
+
+{% endfor %}
+{{ numero_do_dia }}
+
+{{ proximos_eventos }}
+
+---
+
+*Gerado automaticamente em {{ generation_timestamp }}*
