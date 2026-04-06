@@ -1,10 +1,8 @@
 """Configuration loader for the daily news digest system."""
-
 import json
 import os
 from dataclasses import dataclass, field
 from pathlib import Path
-
 from dotenv import load_dotenv
 
 
@@ -24,7 +22,7 @@ class Source:
 
 @dataclass
 class DeliveryConfig:
-    method: str  # "local", "email", or "both"
+    method: str
     output_dir: str
 
 
@@ -89,7 +87,6 @@ def load_settings(project_root: Path | None = None) -> Settings:
         FocusArea(id=fa["id"], name=fa["name"], keywords=fa["keywords"])
         for fa in cfg["focus_areas"]
     ]
-
     sources_global = [
         Source(name=s["name"], url=s["url"], lang=s["lang"])
         for s in cfg["sources"]["global"]
@@ -98,12 +95,10 @@ def load_settings(project_root: Path | None = None) -> Settings:
         Source(name=s["name"], url=s["url"], lang=s["lang"])
         for s in cfg["sources"]["brazil"]
     ]
-
     delivery = DeliveryConfig(
         method=cfg["delivery"]["method"],
         output_dir=cfg["delivery"]["output_dir"],
     )
-
     schedule = ScheduleConfig(
         hour=cfg["schedule"]["hour"],
         minute=cfg["schedule"]["minute"],
@@ -113,13 +108,6 @@ def load_settings(project_root: Path | None = None) -> Settings:
     smtp = None
     smtp_host = os.getenv("SMTP_HOST")
     if smtp_host:
-```
-
-
-
-Acesse:
-```
-github.com/tmaranhao-dev/claude_teste_1/blob/main/main.py
         recipients_raw = os.getenv("EMAIL_TO", "")
         smtp = SmtpConfig(
             host=smtp_host,
