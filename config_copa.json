@@ -1,9 +1,9 @@
 {
   "num_stories": 7,
-  "output_prefix": "copa-2026",
-  "digest_type": "copa",
-  "digest_title": "Copa do Mundo 2026 | Daily Digest",
-  "digest_description": "Acompanhamento diário da Copa do Mundo 2026, Seleção Brasileira, análise tática e bastidores FIFA.",
+  "min_brazil_stories": 3,
+  "language": "pt-br",
+  "max_feed_age_hours": 24,
+  "claude_model": "claude-sonnet-4-20250514",
   "focus_areas": [
     {
       "id": "copa-2026",
@@ -41,114 +41,44 @@
       "keywords": ["escalação", "lesão", "convocação", "desfalque", "lineup", "injury", "squad"]
     }
   ],
-  "rss_feeds": [
-    {
-      "name": "The Athletic - Soccer",
-      "url": "https://theathletic.com/soccer/feed/",
-      "language": "en",
-      "priority": "high"
-    },
-    {
-      "name": "The Guardian - Football",
-      "url": "https://www.theguardian.com/football/rss",
-      "language": "en",
-      "priority": "high"
-    },
-    {
-      "name": "BBC Sport - Football",
-      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
-      "language": "en",
-      "priority": "high"
-    },
-    {
-      "name": "ESPN FC",
-      "url": "https://www.espn.com/espn/rss/soccer/news",
-      "language": "en",
-      "priority": "high"
-    },
-    {
-      "name": "Total Football Analysis",
-      "url": "https://totalfootballanalysis.com/feed",
-      "language": "en",
-      "priority": "medium"
-    },
-    {
-      "name": "Breaking the Lines",
-      "url": "https://breakingthelines.com/feed/",
-      "language": "en",
-      "priority": "medium"
-    },
-    {
-      "name": "StatsBomb",
-      "url": "https://statsbomb.com/feed/",
-      "language": "en",
-      "priority": "medium"
-    },
-    {
-      "name": "Josimar Football",
-      "url": "https://josimar.no/feed/",
-      "language": "en",
-      "priority": "medium"
-    },
-    {
-      "name": "Play the Game",
-      "url": "https://www.playthegame.org/feed/",
-      "language": "en",
-      "priority": "low"
-    },
-    {
-      "name": "The Independent - Football",
-      "url": "https://www.independent.co.uk/sport/football/rss",
-      "language": "en",
-      "priority": "medium"
-    },
-    {
-      "name": "L'Equipe",
-      "url": "https://www.lequipe.fr/rss/actu_rss_Football.xml",
-      "language": "fr",
-      "priority": "medium"
-    },
-    {
-      "name": "Marca",
-      "url": "https://e00-marca.uecdn.es/rss/futbol/futbol-internacional.xml",
-      "language": "es",
-      "priority": "medium"
-    },
-    {
-      "name": "Kicker",
-      "url": "https://www.kicker.de/news/fussball/wm/rss.xml",
-      "language": "de",
-      "priority": "low"
-    },
-    {
-      "name": "Afrik-Foot",
-      "url": "https://www.afrik-foot.com/feed",
-      "language": "fr",
-      "priority": "low"
-    },
-    {
-      "name": "ge.globo",
-      "url": "https://ge.globo.com/rss/ge.xml",
-      "language": "pt",
-      "priority": "high"
-    },
-    {
-      "name": "UOL Esporte",
-      "url": "https://esporte.uol.com.br/futebol/rss.xml",
-      "language": "pt",
-      "priority": "high"
-    },
-    {
-      "name": "Trivela",
-      "url": "https://trivela.com.br/feed/",
-      "language": "pt",
-      "priority": "high"
-    },
-    {
-      "name": "Ludopédio",
-      "url": "https://ludopedio.org.br/feed/",
-      "language": "pt",
-      "priority": "medium"
-    }
-  ]
+  "sources": {
+    "global": [
+      {"name": "The Athletic - Soccer", "url": "https://theathletic.com/soccer/feed/", "lang": "en"},
+      {"name": "The Guardian - Football", "url": "https://www.theguardian.com/football/rss", "lang": "en"},
+      {"name": "BBC Sport - Football", "url": "https://feeds.bbci.co.uk/sport/football/rss.xml", "lang": "en"},
+      {"name": "ESPN FC", "url": "https://www.espn.com/espn/rss/soccer/news", "lang": "en"},
+      {"name": "Total Football Analysis", "url": "https://totalfootballanalysis.com/feed", "lang": "en"},
+      {"name": "Breaking the Lines", "url": "https://breakingthelines.com/feed/", "lang": "en"},
+      {"name": "StatsBomb", "url": "https://statsbomb.com/feed/", "lang": "en"},
+      {"name": "Josimar Football", "url": "https://josimar.no/feed/", "lang": "en"},
+      {"name": "Play the Game", "url": "https://www.playthegame.org/feed/", "lang": "en"},
+      {"name": "The Independent - Football", "url": "https://www.independent.co.uk/sport/football/rss", "lang": "en"},
+      {"name": "L'Equipe", "url": "https://www.lequipe.fr/rss/actu_rss_Football.xml", "lang": "fr"},
+      {"name": "Marca", "url": "https://e00-marca.uecdn.es/rss/futbol/futbol-internacional.xml", "lang": "es"},
+      {"name": "Kicker", "url": "https://www.kicker.de/news/fussball/wm/rss.xml", "lang": "de"},
+      {"name": "Afrik-Foot", "url": "https://www.afrik-foot.com/feed", "lang": "fr"}
+    ],
+    "brazil": [
+      {"name": "ge.globo", "url": "https://ge.globo.com/rss/ge.xml", "lang": "pt"},
+      {"name": "UOL Esporte", "url": "https://esporte.uol.com.br/futebol/rss.xml", "lang": "pt"},
+      {"name": "Trivela", "url": "https://trivela.com.br/feed/", "lang": "pt"},
+      {"name": "Ludopédio", "url": "https://ludopedio.org.br/feed/", "lang": "pt"}
+    ]
+  },
+  "fallback_search_queries": [
+    "Copa do Mundo 2026 seleção brasileira",
+    "World Cup 2026 FIFA qualifiers",
+    "análise tática futebol 2026",
+    "eliminatórias Copa do Mundo CONMEBOL",
+    "Brazil World Cup 2026 squad"
+  ],
+  "delivery": {
+    "method": "local",
+    "output_dir": "output"
+  },
+  "schedule": {
+    "hour": 7,
+    "minute": 0,
+    "timezone": "America/Sao_Paulo"
+  }
 }
