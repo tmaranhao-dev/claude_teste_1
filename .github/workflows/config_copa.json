@@ -1,0 +1,78 @@
+{
+  "num_stories": 7,
+  "min_brazil_stories": 1,
+  "language": "pt-br",
+  "max_feed_age_hours": 24,
+  "claude_model": "claude-sonnet-4-20250514",
+  "digest_type": "copa",
+  "output_prefix": "copa-2026",
+  "template_name": "digest.md.j2",
+  "email_subject_prefix": "Copa 2026 Digest",
+  "focus_areas": [
+    {
+      "id": "tatica",
+      "name": "Análise Tática",
+      "keywords": ["tactics", "formation", "pressing", "analysis", "coach", "strategy"]
+    },
+    {
+      "id": "bastidores",
+      "name": "Bastidores & Política",
+      "keywords": ["FIFA", "corruption", "politics", "behind the scenes", "World Cup 2026"]
+    },
+    {
+      "id": "brasil",
+      "name": "Seleção Brasileira",
+      "keywords": ["Brazil", "Seleção", "CBF", "Dorival", "brasileiros"]
+    },
+    {
+      "id": "mercado",
+      "name": "Mercado & Negócios",
+      "keywords": ["transfer", "sponsorship", "broadcast", "rights", "market value"]
+    },
+    {
+      "id": "curiosidade",
+      "name": "Curiosidades & Histórias",
+      "keywords": ["story", "curiosity", "history", "record", "behind", "exclusive"]
+    }
+  ],
+  "sources": {
+    "global": [
+      {"name": "The Athletic", "url": "https://theathletic.com/rss/", "lang": "en"},
+      {"name": "The Guardian Football", "url": "https://www.theguardian.com/football/rss", "lang": "en"},
+      {"name": "BBC Sport Football", "url": "https://feeds.bbci.co.uk/sport/football/rss.xml", "lang": "en"},
+      {"name": "ESPN FC", "url": "https://www.espn.com/espn/rss/soccer/news", "lang": "en"},
+      {"name": "Total Football Analysis", "url": "https://totalfootballanalysis.com/feed", "lang": "en"},
+      {"name": "Breaking the Lines", "url": "https://breakingthelines.com/feed/", "lang": "en"},
+      {"name": "StatsBomb", "url": "https://statsbomb.com/feed/", "lang": "en"},
+      {"name": "Josimar", "url": "https://josimar.no/feed/", "lang": "en"},
+      {"name": "Play the Game", "url": "https://www.playthegame.org/rss/", "lang": "en"},
+      {"name": "The Independent Football", "url": "https://www.independent.co.uk/sport/football/rss", "lang": "en"},
+      {"name": "L'Equipe", "url": "https://www.lequipe.fr/rss/actu_rss.xml", "lang": "fr"},
+      {"name": "Marca", "url": "https://e00-marca.uecdn.es/rss/futbol/mundial.xml", "lang": "es"},
+      {"name": "Kicker", "url": "https://www.kicker.de/news/fussball/intl/rss.xml", "lang": "de"},
+      {"name": "Afrik-Foot", "url": "https://www.afrik-foot.com/feed/", "lang": "fr"}
+    ],
+    "brazil": [
+      {"name": "ge.globo", "url": "https://ge.globo.com/rss/ultimas-noticias/", "lang": "pt"},
+      {"name": "UOL Esporte", "url": "https://rss.uol.com.br/feed/esportes.xml", "lang": "pt"},
+      {"name": "Trivela", "url": "https://trivela.com.br/feed/", "lang": "pt"},
+      {"name": "Ludopédio", "url": "https://ludopedio.org.br/feed/", "lang": "pt"}
+    ]
+  },
+  "fallback_search_queries": [
+    "Copa do Mundo 2026 FIFA",
+    "World Cup 2026 news",
+    "Seleção Brasileira Copa 2026",
+    "World Cup 2026 qualifiers",
+    "FIFA World Cup 2026 latest"
+  ],
+  "delivery": {
+    "method": "local",
+    "output_dir": "output"
+  },
+  "schedule": {
+    "hour": 7,
+    "minute": 10,
+    "timezone": "America/Sao_Paulo"
+  }
+}
