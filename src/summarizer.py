@@ -90,6 +90,8 @@ REGRAS OBRIGATÓRIAS:
 - Quando cobrir uma história global, sempre adicione um ângulo brasileiro
 - Escreva como editor sênior: direto, opinativo, sem linguagem corporativa
 - Se a história é global mas tem impacto atrasado no Brasil, estime quando chegará
+- NUNCA selecione mais de uma história da mesma fonte/publicação — cada história deve vir de uma fonte diferente
+- Priorize fontes menos conhecidas e perspectivas originais sobre as mesmas fontes mainstream de sempre
 
 Para CADA história selecionada, retorne um objeto JSON com estes campos:
 - "title": título editado da história (pode reformular para maior impacto)
