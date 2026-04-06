@@ -1,6 +1,6 @@
 {
-  "num_stories": 5,
-  "min_brazil_stories": 1,
+  "num_stories": 7,
+  "min_brazil_stories": 0,
   "language": "pt-br",
   "max_feed_age_hours": 24,
   "claude_model": "claude-sonnet-4-20250514",
@@ -46,12 +46,12 @@
       {"name": "Time", "url": "https://time.com/feed/", "lang": "en"},
       {"name": "InnoLead", "url": "https://innolead.com/feed/", "lang": "en"},
       {"name": "Board of Innovation", "url": "https://www.boardofinnovation.com/feed/", "lang": "en"},
-      {"name": "TLDR Newsletter", "url": "https://tldr.tech/rss", "lang": "en"}
+      {"name": "TLDR Newsletter", "url": "https://tldr.tech/rss", "lang": "en"},
+      {"name": "Variety", "url": "https://variety.com/feed/", "lang": "en"},
+      {"name": "The Drum", "url": "https://www.thedrum.com/rss", "lang": "en"},
+      {"name": "Adweek", "url": "https://www.adweek.com/feed/", "lang": "en"}
     ],
-    "brazil": [
-      {"name": "Meio & Mensagem", "url": "https://www.meioemensagem.com.br/feed/", "lang": "pt"},
-      {"name": "B9", "url": "https://www.b9.com.br/feed/", "lang": "pt"}
-    ]
+    "brazil": []
   },
   "fallback_search_queries": [
     "creativity innovation design 2026",
