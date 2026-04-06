@@ -43,13 +43,16 @@
       {"name": "Hackernoon", "url": "https://hackernoon.com/feed", "lang": "en"},
       {"name": "CB Insights", "url": "https://www.cbinsights.com/research/feed/", "lang": "en"},
       {"name": "Fast Company", "url": "https://www.fastcompany.com/rss", "lang": "en"},
-      {"name": "Time", "url": "https://time.com/feed/", "lang": "en"},
       {"name": "InnoLead", "url": "https://innolead.com/feed/", "lang": "en"},
       {"name": "Board of Innovation", "url": "https://www.boardofinnovation.com/feed/", "lang": "en"},
-      {"name": "TLDR Newsletter", "url": "https://tldr.tech/rss", "lang": "en"},
-      {"name": "Variety", "url": "https://variety.com/feed/", "lang": "en"},
       {"name": "The Drum", "url": "https://www.thedrum.com/rss", "lang": "en"},
-      {"name": "Adweek", "url": "https://www.adweek.com/feed/", "lang": "en"}
+      {"name": "Adweek", "url": "https://www.adweek.com/feed/", "lang": "en"},
+      {"name": "Colossal", "url": "https://www.thisiscolossal.com/feed/", "lang": "en"},
+      {"name": "Swissmiss", "url": "https://www.swiss-miss.com/feed", "lang": "en"},
+      {"name": "The Marginalian", "url": "https://www.themarginalian.org/feed/", "lang": "en"},
+      {"name": "Dense Discovery", "url": "https://www.densediscovery.com/feed/podcast", "lang": "en"},
+      {"name": "Sidebar", "url": "https://sidebar.io/feed.xml", "lang": "en"},
+      {"name": "TLDR Newsletter", "url": "https://tldr.tech/rss", "lang": "en"}
     ],
     "brazil": []
   },
