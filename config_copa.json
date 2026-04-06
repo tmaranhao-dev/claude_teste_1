@@ -5,13 +5,41 @@
   "digest_title": "Copa do Mundo 2026 | Daily Digest",
   "digest_description": "Acompanhamento diário da Copa do Mundo 2026, Seleção Brasileira, análise tática e bastidores FIFA.",
   "focus_areas": [
-    "Copa do Mundo 2026",
-    "Seleção Brasileira",
-    "análise tática",
-    "bastidores FIFA",
-    "qualificação sul-americana",
-    "favoritos ao título",
-    "escalações e lesões"
+    {
+      "id": "copa-2026",
+      "name": "Copa do Mundo 2026",
+      "keywords": ["Copa do Mundo", "World Cup 2026", "FIFA 2026", "Copa 2026", "Mundial 2026"]
+    },
+    {
+      "id": "selecao-brasileira",
+      "name": "Seleção Brasileira",
+      "keywords": ["Seleção Brasileira", "Brazil national team", "CBF", "Dorival", "Endrick", "Vinicius"]
+    },
+    {
+      "id": "analise-tatica",
+      "name": "Análise Tática",
+      "keywords": ["análise tática", "tactical analysis", "formação", "pressing", "esquema tático", "data analysis"]
+    },
+    {
+      "id": "bastidores-fifa",
+      "name": "Bastidores FIFA",
+      "keywords": ["FIFA", "Infantino", "bastidores", "sede Copa", "regulamento", "fair play financeiro"]
+    },
+    {
+      "id": "qualificacao",
+      "name": "Qualificação e Eliminatórias",
+      "keywords": ["eliminatórias", "qualificação", "CONMEBOL", "UEFA qualifiers", "AFC", "CAF", "CONCACAF"]
+    },
+    {
+      "id": "favoritos",
+      "name": "Favoritos ao Título",
+      "keywords": ["favoritos", "França", "Argentina", "Inglaterra", "Espanha", "Alemanha", "Brasil", "odds"]
+    },
+    {
+      "id": "escalacoes-lesoes",
+      "name": "Escalações e Lesões",
+      "keywords": ["escalação", "lesão", "convocação", "desfalque", "lineup", "injury", "squad"]
+    }
   ],
   "rss_feeds": [
     {
