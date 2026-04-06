@@ -3,8 +3,9 @@
 Daily News Digest — Entry Point
 
 Usage:
-    python main.py --once       Run the digest pipeline once and exit
-    python main.py --schedule   Start the scheduler (runs daily at configured time)
+    python main.py --once                        Run the digest pipeline once and exit
+    python main.py --schedule                    Start the scheduler
+    python main.py --once --config config_copa.json   Run with alternate config
 """
 
 import argparse
@@ -26,13 +27,9 @@ PROJECT_ROOT = Path(__file__).parent
 
 
 def setup_logging(project_root: Path) -> None:
-    """Configure logging to file and console."""
     logs_dir = project_root / "logs"
     logs_dir.mkdir(exist_ok=True)
-
     log_format = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
-
-    # File handler with rotation (10MB, keep 30 files)
     file_handler = RotatingFileHandler(
         logs_dir / "digest.log",
         maxBytes=10 * 1024 * 1024,
@@ -41,33 +38,28 @@ def setup_logging(project_root: Path) -> None:
     )
     file_handler.setLevel(logging.DEBUG)
     file_handler.setFormatter(logging.Formatter(log_format))
-
-    # Console handler
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(logging.INFO)
     console_handler.setFormatter(logging.Formatter(log_format))
-
     root_logger = logging.getLogger()
     root_logger.setLevel(logging.DEBUG)
     root_logger.addHandler(file_handler)
     root_logger.addHandler(console_handler)
 
 
-def run_pipeline() -> None:
-    """Execute the full digest pipeline: fetch → curate → summarize → output → deliver."""
+def run_pipeline(config_path: Path | None = None) -> None:
     logger = logging.getLogger("pipeline")
     logger.info("=" * 60)
     logger.info("Starting daily digest pipeline")
 
     try:
-        settings = load_settings(PROJECT_ROOT)
+        settings = load_settings(PROJECT_ROOT, config_path=config_path)
     except (ValueError, FileNotFoundError) as e:
         logger.error("Configuration error: %s", e)
         return
 
     date_str = datetime.now().strftime("%Y-%m-%d")
 
-    # Step 1: Fetch articles from RSS feeds
     try:
         articles = fetch_articles(settings)
         logger.info("Step 1/4: Fetched %d articles", len(articles))
@@ -75,7 +67,6 @@ def run_pipeline() -> None:
         logger.error("Fetch failed: %s", e)
         return
 
-    # Step 2: Curate candidates
     candidates = curate_candidates(articles, settings)
     logger.info("Step 2/4: Curated %d candidates", len(candidates))
 
@@ -83,7 +74,6 @@ def run_pipeline() -> None:
         logger.error("No candidates after curation. Aborting.")
         return
 
-    # Step 3: Generate digest via Claude API
     try:
         digest = generate_digest(candidates, settings, date_str)
         logger.info("Step 3/4: Generated digest with %d stories", len(digest.stories))
@@ -91,7 +81,6 @@ def run_pipeline() -> None:
         logger.error("Summarization failed: %s", e)
         return
 
-    # Step 4: Write output files
     try:
         md_path, json_path = write_digest(digest, settings)
         logger.info("Step 4/4: Output written to %s", md_path.parent)
@@ -99,10 +88,9 @@ def run_pipeline() -> None:
         logger.error("Output generation failed: %s", e)
         return
 
-    # Step 5: Deliver (email if configured)
-    # Step 5: Deliver (email if configured)
     if settings.delivery.method in ("email", "both") or settings.smtp:
         deliver_email(md_path, json_path, settings)
+
     logger.info("Pipeline complete. Digest: %s", md_path.name)
     logger.info("=" * 60)
 
@@ -111,16 +99,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Daily News Digest for Creative Professionals"
     )
-    parser.add_argument(
-        "--once",
-        action="store_true",
-        help="Run the digest pipeline once and exit",
-    )
-    parser.add_argument(
-        "--schedule",
-        action="store_true",
-        help="Start the scheduler (runs daily at configured time)",
-    )
+    parser.add_argument("--once", action="store_true", help="Run once and exit")
+    parser.add_argument("--schedule", action="store_true", help="Start the scheduler")
+    parser.add_argument("--config", type=str, default=None, help="Path to alternate config JSON")
 
     args = parser.parse_args()
 
@@ -132,13 +113,15 @@ def main() -> None:
     setup_logging(PROJECT_ROOT)
     logger = logging.getLogger("main")
 
+    config_path = Path(args.config) if args.config else None
+
     if args.once:
         logger.info("Running in single-run mode")
-        run_pipeline()
+        run_pipeline(config_path=config_path)
     elif args.schedule:
         logger.info("Running in scheduler mode")
         try:
-            settings = load_settings(PROJECT_ROOT)
+            settings = load_settings(PROJECT_ROOT, config_path=config_path)
         except (ValueError, FileNotFoundError) as e:
             logger.error("Configuration error: %s", e)
             sys.exit(1)
