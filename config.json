@@ -1,69 +1,64 @@
 {
   "num_stories": 5,
-  "min_brazil_stories": 2,
+  "min_brazil_stories": 1,
   "language": "pt-br",
-  "max_feed_age_hours": 48,
+  "max_feed_age_hours": 24,
   "claude_model": "claude-sonnet-4-20250514",
   "focus_areas": [
     {
-      "id": "criatividade_inovacao",
-      "name": "Criatividade & Inovação",
-      "keywords": ["criatividade", "inovação", "creative", "innovation", "advertising", "publicidade", "design", "creative strategy", "estratégia criativa", "branding"]
+      "id": "creativity",
+      "name": "Criatividade & Design",
+      "keywords": ["creativity", "design", "creative", "art direction", "branding", "visual identity"]
     },
     {
-      "id": "comunicacao_rp",
-      "name": "Comunicação & RP",
-      "keywords": ["comunicação", "relações públicas", "PR", "brand communication", "reputação", "media relations", "assessoria de imprensa", "corporate communication"]
+      "id": "innovation",
+      "name": "Inovação & Futurismo",
+      "keywords": ["innovation", "future", "futurism", "emerging technology", "disruption", "startup"]
     },
     {
-      "id": "jornalismo_midia",
-      "name": "Jornalismo & Mídia",
-      "keywords": ["jornalismo", "journalism", "media", "mídia", "newsroom", "editorial", "press", "imprensa", "newsletter", "plataformas de notícias"]
+      "id": "technology",
+      "name": "Tecnologia & IA",
+      "keywords": ["artificial intelligence", "AI", "machine learning", "tech", "digital", "automation"]
     },
     {
-      "id": "producao_conteudo",
-      "name": "Produção de Conteúdo",
-      "keywords": ["content creation", "criação de conteúdo", "creator economy", "influencer", "social media", "redes sociais", "TikTok", "Instagram", "YouTube", "trending"]
+      "id": "culture",
+      "name": "Cultura & Tendências",
+      "keywords": ["culture", "trends", "creative industry", "media", "entertainment", "content"]
     },
     {
-      "id": "producao_audiovisual",
-      "name": "Produção Audiovisual",
-      "keywords": ["streaming", "video", "podcast", "film", "cinema", "live events", "eventos ao vivo", "Netflix", "TV", "série", "produção audiovisual"]
-    },
-    {
-      "id": "ia_aplicada",
-      "name": "IA Aplicada",
-      "keywords": ["AI", "inteligência artificial", "artificial intelligence", "machine learning", "generative AI", "IA generativa", "ChatGPT", "Claude", "automação", "automation"]
+      "id": "business",
+      "name": "Negócios Criativos",
+      "keywords": ["creative business", "venture capital", "startup", "brand strategy", "marketing"]
     }
   ],
   "sources": {
     "global": [
-      {"name": "Fast Company", "url": "https://www.fastcompany.com/feed", "lang": "en"},
       {"name": "Wired", "url": "https://www.wired.com/feed/rss", "lang": "en"},
-      {"name": "The Drum", "url": "https://www.thedrum.com/feeds/all.xml", "lang": "en"},
-      {"name": "Adweek", "url": "https://www.adweek.com/feed/", "lang": "en"},
-      {"name": "Ad Age", "url": "https://adage.com/feed/latest-news", "lang": "en"},
-      {"name": "Variety", "url": "https://variety.com/feed/", "lang": "en"},
-      {"name": "Deadline", "url": "https://deadline.com/feed/", "lang": "en"},
-      {"name": "Reuters Media", "url": "https://www.reuters.com/arc/outboundfeeds/rss/?outputType=xml", "lang": "en"}
+      {"name": "It's Nice That", "url": "https://www.itsnicethat.com/rss", "lang": "en"},
+      {"name": "Dezeen", "url": "https://www.dezeen.com/feed/", "lang": "en"},
+      {"name": "Creative Review", "url": "https://www.creativereview.co.uk/feed/", "lang": "en"},
+      {"name": "Creative Boom", "url": "https://www.creativeboom.com/feed/", "lang": "en"},
+      {"name": "The Brand Identity", "url": "https://thebrandidentity.com/feed/", "lang": "en"},
+      {"name": "Contagious", "url": "https://www.contagious.com/rss", "lang": "en"},
+      {"name": "Hackernoon", "url": "https://hackernoon.com/feed", "lang": "en"},
+      {"name": "CB Insights", "url": "https://www.cbinsights.com/research/feed/", "lang": "en"},
+      {"name": "Fast Company", "url": "https://www.fastcompany.com/rss", "lang": "en"},
+      {"name": "Time", "url": "https://time.com/feed/", "lang": "en"},
+      {"name": "InnoLead", "url": "https://innolead.com/feed/", "lang": "en"},
+      {"name": "Board of Innovation", "url": "https://www.boardofinnovation.com/feed/", "lang": "en"},
+      {"name": "TLDR Newsletter", "url": "https://tldr.tech/rss", "lang": "en"}
     ],
     "brazil": [
-      {"name": "Meio & Mensagem", "url": "https://www.meioemensagem.com.br/feed", "lang": "pt-br"},
-      {"name": "B9", "url": "https://www.b9.com.br/feed/", "lang": "pt-br"},
-      {"name": "Folha - Mercado", "url": "https://feeds.folha.uol.com.br/mercado/rss091.xml", "lang": "pt-br"},
-      {"name": "Folha - Tec", "url": "https://feeds.folha.uol.com.br/tec/rss091.xml", "lang": "pt-br"},
-      {"name": "Exame", "url": "https://exame.com/feed/", "lang": "pt-br"},
-      {"name": "Poder360", "url": "https://www.poder360.com.br/feed/", "lang": "pt-br"}
+      {"name": "Meio & Mensagem", "url": "https://www.meioemensagem.com.br/feed/", "lang": "pt"},
+      {"name": "B9", "url": "https://www.b9.com.br/feed/", "lang": "pt"}
     ]
   },
   "fallback_search_queries": [
-    "creative industry news",
-    "advertising digital marketing",
-    "streaming video production",
-    "creator economy social media",
-    "AI communication media",
-    "comunicação mídia Brasil",
-    "publicidade criatividade Brasil"
+    "creativity innovation design 2026",
+    "artificial intelligence creative industry",
+    "future of work creative professionals",
+    "branding design trends 2026",
+    "startup innovation technology"
   ],
   "delivery": {
     "method": "local",
