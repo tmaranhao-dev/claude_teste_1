@@ -1,0 +1,38 @@
+name: Copa do Mundo 2026 Digest
+
+on:
+  schedule:
+    - cron: '10 10 * * *'  # 7h10 São Paulo (UTC-3)
+  workflow_dispatch:
+
+jobs:
+  run-copa-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Copa digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST: smtp.gmail.com
+          SMTP_PORT: 587
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python main.py --once --config config_copa.json
+
+      - name: Commit output
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "copa digest $(date +'%Y-%m-%d')"
+          git push
