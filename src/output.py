@@ -14,15 +14,15 @@ from src.summarizer import DigestResult
 logger = logging.getLogger(__name__)
 
 
-def _get_output_path(output_dir: Path, date_str: str, ext: str) -> Path:
+def _get_output_path(output_dir: Path, date_str: str, ext: str, prefix: str = "digest") -> Path:
     """Get a unique output file path, appending -v2, -v3 etc. if needed."""
-    base = output_dir / f"digest-{date_str}{ext}"
+    base = output_dir / f"{prefix}-{date_str}{ext}"
     if not base.exists():
         return base
 
     version = 2
     while True:
-        path = output_dir / f"digest-{date_str}-v{version}{ext}"
+        path = output_dir / f"{prefix}-{date_str}-v{version}{ext}"
         if not path.exists():
             return path
         version += 1
@@ -53,7 +53,8 @@ def write_digest(
         generation_timestamp=now_str,
     )
 
-    md_path = _get_output_path(output_dir, date_str, ".md")
+    prefix = getattr(settings, "output_prefix", "digest")
+    md_path = _get_output_path(output_dir, date_str, ".md", prefix=prefix)
     md_path.write_text(md_content, encoding="utf-8")
     logger.info("Markdown digest written to %s", md_path)
 
@@ -61,7 +62,7 @@ def write_digest(
     json_data = asdict(result)
     json_data["generation_timestamp"] = now_str
 
-    json_path = _get_output_path(output_dir, date_str, ".json")
+    json_path = _get_output_path(output_dir, date_str, ".json", prefix=prefix)
     json_path.write_text(
         json.dumps(json_data, ensure_ascii=False, indent=2),
         encoding="utf-8",
