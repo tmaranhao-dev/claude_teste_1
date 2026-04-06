@@ -56,17 +56,24 @@ class Settings:
     fallback_search_queries: list[str]
     delivery: DeliveryConfig
     schedule: ScheduleConfig
+    digest_type: str = "general"
+    output_prefix: str = "digest"
+    template_name: str = "digest.md.j2"
+    email_subject_prefix: str = "Digest Diário"
     smtp: SmtpConfig | None = None
     project_root: Path = field(default_factory=lambda: Path.cwd())
 
 
-def load_settings(project_root: Path | None = None) -> Settings:
+def load_settings(project_root: Path | None = None, config_path: Path | None = None) -> Settings:
     """Load settings from .env and config.json files."""
     if project_root is None:
         project_root = Path(__file__).parent.parent
 
     env_path = project_root / ".env"
-    config_path = project_root / "config.json"
+    if config_path is None:
+        config_path = project_root / "config.json"
+    elif not config_path.is_absolute():
+        config_path = project_root / config_path
 
     load_dotenv(env_path)
 
@@ -93,7 +100,7 @@ def load_settings(project_root: Path | None = None) -> Settings:
     ]
     sources_brazil = [
         Source(name=s["name"], url=s["url"], lang=s["lang"])
-        for s in cfg["sources"]["brazil"]
+        for s in cfg.get("sources", {}).get("brazil", [])
     ]
     delivery = DeliveryConfig(
         method=cfg["delivery"]["method"],
@@ -130,6 +137,10 @@ def load_settings(project_root: Path | None = None) -> Settings:
         fallback_search_queries=cfg.get("fallback_search_queries", []),
         delivery=delivery,
         schedule=schedule,
+        digest_type=cfg.get("digest_type", "general"),
+        output_prefix=cfg.get("output_prefix", "digest"),
+        template_name=cfg.get("template_name", "digest.md.j2"),
+        email_subject_prefix=cfg.get("email_subject_prefix", "Digest Diário"),
         smtp=smtp,
         project_root=project_root,
     )
