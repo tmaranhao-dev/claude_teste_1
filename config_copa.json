@@ -1,6 +1,6 @@
 {
   "num_stories": 7,
-  "min_brazil_stories": 3,
+  "min_brazil_stories": 2,
   "language": "pt-br",
   "max_feed_age_hours": 24,
   "claude_model": "claude-sonnet-4-20250514",
@@ -58,12 +58,7 @@
       {"name": "Kicker", "url": "https://www.kicker.de/news/fussball/wm/rss.xml", "lang": "de"},
       {"name": "Afrik-Foot", "url": "https://www.afrik-foot.com/feed", "lang": "fr"}
     ],
-    "brazil": [
-      {"name": "ge.globo", "url": "https://ge.globo.com/rss/ge.xml", "lang": "pt"},
-      {"name": "UOL Esporte", "url": "https://esporte.uol.com.br/futebol/rss.xml", "lang": "pt"},
-      {"name": "Trivela", "url": "https://trivela.com.br/feed/", "lang": "pt"},
-      {"name": "Ludopédio", "url": "https://ludopedio.org.br/feed/", "lang": "pt"}
-    ]
+    "brazil": []
   },
   "fallback_search_queries": [
     "Copa do Mundo 2026 seleção brasileira",
