@@ -1,0 +1,84 @@
+{
+  "date": "2026-04-18",
+  "stories": [
+    {
+      "title": "Startups falidas estão vendendo conversas do Slack para treinar IA por centenas de milhares de dólares",
+      "source": "Fast Company",
+      "date": "2026-04-17",
+      "link": "https://www.fastcompany.com/91528808/shuttered-startups-are-selling-old-slack-chats-and-emails-to-ai-companies",
+      "what_happened": "Empresas que fecharam as portas estão monetizando seus dados internos — mensagens do Slack, emails e tickets do Jira — vendendo tudo como dados de treinamento para empresas de IA. A CEO da Cielo24 conseguiu centenas de milhares de dólares com essa estratégia.",
+      "why_it_matters": "Isso muda completamente o conceito de 'falência' no mundo tech e cria um novo mercado de dados corporativos. Para agências e produtoras, é um alerta: suas conversas internas podem valer ouro no futuro — e também levanta questões sérias sobre privacidade e propriedade intelectual.",
+      "brazilian_angle": "No Brasil, onde startups ainda estão descobrindo como monetizar dados, essa tendência deve chegar em 2027. Empresas brasileiras precisam começar a pensar em políticas de dados desde o dia zero.",
+      "content_angle": "Post no LinkedIn: 'Sua startup faliu? Seus dados podem valer mais que você imagina — mas isso é ético?'",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "Anthropic lança Claude Design para competir no ringue das ferramentas de IA para design",
+      "source": "Fast Company",
+      "date": "2026-04-17",
+      "link": "https://www.fastcompany.com/91528198/anthropic-claude-design-ai-design-tool",
+      "what_happened": "A Anthropic lançou o Claude Design, uma ferramenta que permite criar designs, protótipos e apresentações visuais em colaboração com IA. A ferramenta é baseada no modelo Opus 4.7 e promete democratizar o design para não-designers.",
+      "why_it_matters": "Mais uma ferramenta que ameaça — ou liberta — designers tradicionais. Para profissionais criativos, é hora de decidir: usar IA como assistente criativo ou competir contra ela. A democratização do design pode saturar o mercado, mas também abrir oportunidades para quem souber dirigir essas ferramentas.",
+      "brazilian_angle": "Designers brasileiros já estão experimentando com Midjourney e DALL-E. O Claude Design deve chegar ao Brasil em português até o final de 2026, intensificando a pressão sobre freelancers e pequenos estúdios.",
+      "content_angle": "Thread no Twitter: 'Testei o Claude Design por uma semana — aqui está o que designers brasileiros precisam saber'",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Reese Witherspoon diz que usar IA é feminista e mulheres precisam se atualizar",
+      "source": "Fast Company",
+      "date": "2026-04-17",
+      "link": "https://www.fastcompany.com/91528699/reese-witherspoon-using-generative-ai-is-feminist-women-need-to-catch-up-hello-sunshine",
+      "what_happened": "A atriz e empresária Reese Witherspoon defendeu em post no Instagram que mulheres devem se educar sobre IA para não ficarem para trás, posicionando o uso de IA como uma questão feminista. O post gerou controvérsia nas redes sociais.",
+      "why_it_matters": "Quando uma celebridade com marca pessoal forte fala sobre IA, isso molda a percepção pública. Para profissionais de comunicação, é um case de como posicionar tecnologia através de narrativas sociais — e também um exemplo de como isso pode dar errado se não for bem calibrado.",
+      "brazilian_angle": "No Brasil, influenciadoras como Camila Coutinho e Nath Finanças ainda não abraçaram publicamente a IA. Quem fizer isso primeiro pode dominar a conversa sobre 'IA feminista' por aqui.",
+      "content_angle": "Post no Instagram: 'Por que a IA virou pauta feminista? Analisando a polêmica da Reese Witherspoon'",
+      "focus_area": "Cultura & Tendências"
+    },
+    {
+      "title": "Cinco produtos inovadores que prometem revolucionar o trabalho doméstico",
+      "source": "Dezeen",
+      "date": "2026-04-18",
+      "link": "https://www.dezeen.com/2026/04/18/housework-products-cooking-cleaning-roundups/",
+      "what_happened": "A Dezeen destacou cinco produtos de design que visam transformar tarefas domésticas, incluindo uma faca ultrassônica que vibra 30.000 vezes por segundo. A matéria surge no contexto de 2026 ser considerado o ano dos robôs domésticos.",
+      "why_it_matters": "Design de produto está se tornando mais inteligente e específico. Para criadores de conteúdo, produtos assim são ouro para reviews, unboxings e conteúdo de lifestyle. É também um sinal de como o design está respondendo às mudanças no estilo de vida pós-pandemia.",
+      "brazilian_angle": "Produtos de design premium chegam ao Brasil com 2-3 anos de atraso e preços inflacionados. Mas a tendência de 'design doméstico inteligente' já está influenciando startups brasileiras como a Liv Up e empresas de casa inteligente.",
+      "content_angle": "Reel no Instagram: 'Produtos que vão mudar sua casa em 2026 — mas quanto custam no Brasil?'",
+      "focus_area": "Inovação & Futurismo"
+    },
+    {
+      "title": "Estúdio espanhol cria restaurante japonês em Londres inspirado nos izakayas de Tóquio",
+      "source": "Dezeen",
+      "date": "2026-04-18",
+      "link": "https://www.dezeen.com/2026/04/18/mitsu-restaurant-london-astet-studio/",
+      "what_happened": "O Astet Studio, de Barcelona, projetou o restaurante Mitsu em Londres usando biombos shoji contemporâneos e tecidos suspensos para evocar a atmosfera dos izakayas de Tóquio e a cultura de rua japonesa.",
+      "why_it_matters": "Projetos de hospitalidade estão cada vez mais focados em criar 'experiências culturais autênticas' através do design. Para profissionais de comunicação, isso mostra como marcas podem usar referências culturais específicas para criar identidade visual forte e storytelling envolvente.",
+      "brazilian_angle": "A cena gastronômica brasileira está descobrindo o poder do design temático. Restaurantes como Kinoshita e Jun Sakamoto em São Paulo já exploram essa estética, mas ainda há espaço para projetos mais ousados.",
+      "content_angle": "Post no LinkedIn: 'Como um restaurante japonês em Londres pode inspirar projetos de branding no Brasil'",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Mercados de apostas em eventos políticos enfrentam pressão do Congresso americano",
+      "source": "Fast Company",
+      "date": "2026-04-17",
+      "link": "https://www.fastcompany.com/91528586/polymarket-kalshi-up-against-united-congress-dc-steps-up-scrutiny-prediction-markets",
+      "what_happened": "Plataformas como Polymarket e Kalshi estão sob crescente escrutínio do Congresso americano após permitirem apostas em eventos sensíveis, como o resgate de um piloto militar. O caso gerou indignação quando foi exposto nas redes sociais.",
+      "why_it_matters": "Isso mostra como plataformas digitais podem cruzar linhas éticas rapidamente e como a regulamentação está correndo atrás da inovação. Para profissionais de comunicação, é um case sobre gestão de crise e os riscos de monetizar literalmente qualquer evento.",
+      "brazilian_angle": "No Brasil, apostas esportivas online explodiram recentemente. A regulamentação de mercados de previsão deve seguir o modelo americano, criando oportunidades para startups brasileiras que souberem navegar as regras desde o início.",
+      "content_angle": "Thread no Twitter: 'Quando a inovação vai longe demais: o caso dos mercados de apostas políticas'",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "Notícias falsas sobre esportes universitários se espalham na ausência de transparência sobre pagamentos",
+      "source": "Fast Company",
+      "date": "2026-04-17",
+      "link": "https://www.fastcompany.com/91528300/fake-news-about-college-sports-spreads-like-wildfire-on-social-media",
+      "what_happened": "A falta de transparência sobre pagamentos a atletas universitários americanos está criando um ambiente fértil para desinformação nas redes sociais, com rumores sobre transferências e salários se espalhando rapidamente.",
+      "why_it_matters": "Mostra como a falta de transparência corporativa alimenta fake news e como as redes sociais amplificam especulações. Para profissionais de comunicação, é um lembrete de que transparência proativa é melhor que controle de danos reativo.",
+      "brazilian_angle": "O futebol brasileiro vive situação similar com transferências e salários. A CBF e clubes brasileiros podem aprender com esse caso americano sobre como a falta de transparência gera especulação descontrolada.",
+      "content_angle": "Post no LinkedIn: 'O que o esporte universitário americano ensina sobre transparência e fake news'",
+      "focus_area": "Cultura & Tendências"
+    }
+  ],
+  "editorial_note": "A IA está redefinindo o jogo criativo em velocidade recorde. Enquanto startups falidas vendem conversas do Slack para treinar algoritmos, ferramentas de design inteligente chegam ao mercado e até Reese Witherspoon prega que usar IA é questão feminista. Para quem trabalha com conteúdo no Brasil, não é mais sobre resistir — é sobre entender como surfar essa onda antes que ela nos passe por cima.",
+  "generation_timestamp": "2026-04-18 11:52 UTC"
+}
