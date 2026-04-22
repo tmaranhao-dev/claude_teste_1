@@ -1,0 +1,84 @@
+{
+  "date": "2026-04-22",
+  "stories": [
+    {
+      "title": "Samsung abandona a guerra dos specs e aposta na emoção contra a Apple",
+      "source": "Fast Company",
+      "date": "2026-04-22",
+      "link": "https://www.fastcompany.com/91530327/samsungs-design-chief-wants-tech-to-feel-more-human",
+      "what_happened": "O chief design officer da Samsung, Mauro Porcini, revelou o novo manifesto de design da empresa no Milan Design Week, priorizando como os produtos fazem as pessoas se sentirem ao invés de apenas especificações técnicas. A estratégia marca uma mudança radical para uma marca historicamente focada em engenharia e performance.",
+      "why_it_matters": "Quando gigantes da tecnologia começam a competir por emoção ao invés de megapixels, isso muda tudo para quem cria conteúdo e experiências. Se a Samsung está investindo pesado em design emocional, é porque os dados mostram que consumidores não compram mais produtos — compram sentimentos.",
+      "brazilian_angle": "No Brasil, onde a Samsung compete diretamente com Apple e Xiaomi, essa mudança de estratégia pode redefinir como marcas locais posicionam seus produtos. Empresas brasileiras que ainda vendem apenas funcionalidade vão ficar para trás.",
+      "content_angle": "Crie um post comparando como marcas brasileiras ainda vendem specs enquanto gigantes globais já vendem emoções.",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Adobe lança IA que cria sites personalizados para cada geração",
+      "source": "Fast Company",
+      "date": "2026-04-21",
+      "link": "https://www.fastcompany.com/91530085/adobes-new-ai-experiment-can-whip-up-a-website-custom-designed-for-gen-z",
+      "what_happened": "A Adobe apresentou o Asset Amplify, uma ferramenta experimental que gera websites completos, posts para redes sociais e materiais impressos customizados para segmentos específicos como Gen Z ou millennials. A tecnologia faz parte dos 'Sneaks', projetos em desenvolvimento da empresa.",
+      "why_it_matters": "Isso não é só automação — é personalização em massa inteligente. Para agências e freelancers brasileiros, significa que o valor não está mais em fazer sites, mas em entender audiências e estratégia. Quem não se adaptar vai virar commodity.",
+      "brazilian_angle": "Considerando que o Brasil tem uma das populações mais jovens e conectadas do mundo, ferramentas que entendem diferenças geracionais chegam aqui com força total. Agências brasileiras precisam se preparar para clientes que vão exigir personalização automática.",
+      "content_angle": "Faça um teste: peça para a IA criar o mesmo conteúdo para boomers e Gen Z, e mostre as diferenças absurdas.",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Nvidia e AtkinsRéalis criam data centers movidos a energia nuclear",
+      "source": "Dezeen",
+      "date": "2026-04-21",
+      "link": "https://www.dezeen.com/2026/04/21/atkinsrealis-nvidia-nuclear-powered-data-centres/",
+      "what_happened": "A empresa canadense AtkinsRéalis anunciou parceria com a Nvidia para desenvolver data centers alimentados por energia nuclear. A colaboração visa criar fontes de energia capazes de sustentar centros de dados em hiperescala sem sobrecarregar as redes elétricas tradicionais.",
+      "why_it_matters": "Quando a Nvidia — que basicamente controla a infraestrutura de IA global — precisa de energia nuclear para seus data centers, isso mostra o tamanho real da revolução que está vindo. Para criadores de conteúdo, significa que as ferramentas de IA vão ficar exponencialmente mais poderosas.",
+      "brazilian_angle": "O Brasil, com seu programa nuclear e matriz energética diversificada, pode se tornar um hub estratégico para data centers de IA. Isso pode acelerar a chegada de tecnologias avançadas no mercado nacional e criar oportunidades para profissionais tech locais.",
+      "content_angle": "Explique por que sua próxima campanha de IA pode estar sendo processada por energia nuclear — e por que isso importa.",
+      "focus_area": "Inovação & Futurismo"
+    },
+    {
+      "title": "UX em saúde falha porque ninguém mede o que importa",
+      "source": "Hackernoon",
+      "date": "2026-04-22",
+      "link": "https://hackernoon.com/medtech-doesnt-have-a-ux-problem-it-has-a-measurement-problem-nobody-wants-to-solve?source=rss",
+      "what_happened": "Um artigo argumenta que a tecnologia médica não tem problema de UX, mas sim de métricas erradas. Frequência de workarounds, abandono de tarefas e dependência de sistemas paralelos existem e se acumulam, mas nunca aparecem nos orçamentos ou são medidos adequadamente.",
+      "why_it_matters": "Esse é o problema de toda indústria que vende para empresas: otimizam para quem compra, não para quem usa. Para quem trabalha com comunicação B2B, isso é uma lição brutal sobre como as métricas erradas destroem experiências reais.",
+      "brazilian_angle": "No SUS e na saúde privada brasileira, sistemas mal projetados custam vidas e dinheiro. Profissionais de UX e comunicação que entenderem como medir impacto real — não apenas satisfação — vão encontrar um mercado gigantesco e negligenciado.",
+      "content_angle": "Liste as métricas que sua empresa mede vs. as que realmente importam para quem usa seu produto.",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "Mídia tech virou negócio, HackerNoon ainda é cultura",
+      "source": "Hackernoon",
+      "date": "2026-04-22",
+      "link": "https://hackernoon.com/tech-media-became-a-business-hackernoon-still-feels-like-a-culture?source=rss",
+      "what_happened": "Um artigo reflexivo analisa como a mídia especializada em tecnologia se transformou em um negócio corporativo, enquanto plataformas como HackerNoon mantêm uma sensação de cultura viva e comunidade autêntica.",
+      "why_it_matters": "Quando até a mídia tech vira máquina de conteúdo corporativo, quem conseguir manter autenticidade e comunidade real vai dominar a atenção. Para criadores de conteúdo brasileiros, é um lembrete de que algoritmos não substituem conexão humana genuína.",
+      "brazilian_angle": "O Brasil tem uma tradição forte de mídia independente e comunidades tech ativas. Plataformas que conseguirem replicar essa sensação de 'cultura' ao invés de apenas distribuir conteúdo vão capturar a atenção dos profissionais mais influentes.",
+      "content_angle": "Compare o tom de uma newsletter corporativa com uma conversa real entre profissionais — e questione qual você prefere receber.",
+      "focus_area": "Cultura & Tendências"
+    },
+    {
+      "title": "Existem apenas quatro habilidades no mundo",
+      "source": "Sidebar",
+      "date": "2026-04-22",
+      "link": "https://www.lesswrong.com/posts/KRLGxCaqdgrotyB8z/there-are-only-four-skills-design-technical-management-and",
+      "what_happened": "Um ensaio propõe que todas as habilidades profissionais se resumem a quatro categorias: design, técnica, gestão e física. O autor argumenta que dominar essas categorias fundamentais permite adquirir expertise em qualquer domínio específico rapidamente.",
+      "why_it_matters": "Para profissionais criativos que vivem se reinventando, essa framework simplifica decisões de carreira. Ao invés de correr atrás de cada nova ferramenta ou trend, foque em fortalecer essas quatro bases — elas se transferem para qualquer área.",
+      "brazilian_angle": "No mercado brasileiro, onde profissionais precisam ser generalistas por necessidade econômica, essa abordagem faz ainda mais sentido. Quem dominar essas quatro bases vai conseguir navegar entre agências, startups e projetos próprios com mais facilidade.",
+      "content_angle": "Faça um audit das suas habilidades usando essas quatro categorias — e descubra onde estão seus gaps reais.",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "Laila Gohar transforma carrossel em arte comestível para Arket",
+      "source": "Dezeen",
+      "date": "2026-04-22",
+      "link": "https://www.dezeen.com/2026/04/22/laila-gohar-arket-carousel/",
+      "what_happened": "A designer Laila Gohar criou um carrossel decorado com frutas e vegetais gigantes para celebrar sua primeira coleção de ready-to-wear em colaboração com a marca Arket, apresentado durante o Milan Design Week.",
+      "why_it_matters": "Quando food design vira instalação de moda, isso mostra como as fronteiras entre disciplinas criativas estão desaparecendo. Para profissionais brasileiros, é um exemplo perfeito de como expandir além da sua área original pode gerar projetos únicos e memoráveis.",
+      "brazilian_angle": "O Brasil tem uma cultura visual rica em comida e design tropical que poderia gerar colaborações similares. Designers brasileiros têm material cultural único para criar experiências que misturam gastronomia, moda e arte — falta só ousadia para propor.",
+      "content_angle": "Documente um projeto onde você misturou duas disciplinas completamente diferentes — e o resultado surpreendente.",
+      "focus_area": "Criatividade & Design"
+    }
+  ],
+  "editorial_note": "O design está virando o novo campo de batalha da tecnologia. Enquanto a Samsung aposta na humanização da experiência digital e a Adobe automatiza a criação para diferentes gerações, o Milan Design Week mostra que a inovação real está na intersecção entre funcionalidade e emoção. Para quem trabalha com comunicação no Brasil, é hora de parar de pensar em design como cosmética e começar a tratá-lo como estratégia de negócio.",
+  "generation_timestamp": "2026-04-22 11:23 UTC"
+}
