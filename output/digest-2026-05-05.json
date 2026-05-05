@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-05",
+  "stories": [
+    {
+      "title": "MIT fecha revista de gestão após 67 anos e aposta tudo no digital",
+      "source": "Fast Company",
+      "date": "2026-05-05",
+      "link": "https://www.fastcompany.com/91536406/farewell-to-the-sloan-management-review-now-what-for-management-ideas",
+      "what_happened": "A MIT Sloan Management Review, publicação de referência em gestão há 67 anos, será encerrada. O conteúdo futuro será distribuído via newsletters digitais, vídeos curtos, conteúdo para redes sociais e podcasts.",
+      "why_it_matters": "É o fim de uma era para quem consome conteúdo de gestão e negócios. A decisão do MIT sinaliza que até as instituições mais tradicionais estão abandonando formatos longos em favor de conteúdo fragmentado e otimizado para redes sociais — uma tendência que já domina nossa indústria.",
+      "brazilian_angle": "No Brasil, já vemos essa migração há anos: revistas como Exame e Época migraram para digital, e influenciadores de negócios dominam LinkedIn e Instagram com pílulas de conhecimento que antes estavam em publicações acadêmicas.",
+      "content_angle": "Use como gancho para discutir como o formato está matando o conteúdo — ou salvando-o da irrelevância.",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "EUA criam primeiro cargo de 'arquiteto de marca nacional' da história",
+      "source": "Dezeen",
+      "date": "2026-05-04",
+      "link": "https://www.dezeen.com/2026/05/04/peter-arnell-americas-first-chief-brand-architect/",
+      "what_happened": "O governo americano nomeou Peter Arnell como primeiro Chief Brand Architect do país, dentro do recém-criado National Design Studio. Ele será responsável por desenvolver um sistema unificado de design e marca para o governo federal.",
+      "why_it_matters": "Quando um país inteiro decide que precisa de um diretor de arte, é porque branding deixou de ser frescura corporativa e virou questão de Estado. Isso valida definitivamente nossa profissão — e mostra como design pode ser ferramenta geopolítica.",
+      "brazilian_angle": "O Brasil ainda engatinha nisso: nossa identidade visual governamental é um frankenstein de gestões passadas. Imaginem o impacto de ter alguém pensando marca Brasil de forma consistente, desde passaportes até comunicação internacional.",
+      "content_angle": "Explore como países competem por atenção global através de design — e por que o Brasil está perdendo essa guerra.",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Estudo da Microsoft: líderes, não funcionários, definem sucesso da IA",
+      "source": "Fast Company",
+      "date": "2026-05-05",
+      "link": "https://www.fastcompany.com/91536106/new-microsoft-study-leaders-not-workers-are-responsible-for-successful-ai-integration",
+      "what_happened": "Pesquisa da Microsoft com 20 mil trabalhadores em 10 países mostra que organizações bem-sucedidas com IA não apenas adotam ferramentas, mas reestruturam completamente o trabalho. O sucesso depende da cultura organizacional, não da tecnologia.",
+      "why_it_matters": "Para quem trabalha com conteúdo e comunicação, isso é crucial: não adianta comprar ChatGPT Pro se a chefia ainda pensa em briefings de 2019. A IA só funciona quando liderança entende que precisa redesenhar processos inteiros, não só automatizar tarefas.",
+      "brazilian_angle": "No Brasil, ainda vemos muita resistência de lideranças tradicionais à IA — especialmente em agências e veículos familiares. Quem não fizer essa transição cultural vai ficar para trás rapidamente.",
+      "content_angle": "Transforme em checklist: 'Como saber se sua empresa está realmente pronta para IA (spoiler: não é sobre tecnologia)'.",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Iris van Herpen cria vestido que 'se dissolve' com 15 mil esferas de vidro",
+      "source": "Dezeen",
+      "date": "2026-05-05",
+      "link": "https://www.dezeen.com/2026/05/05/iris-van-herpen-met-gala-dress-15000-glass-bubbles/",
+      "what_happened": "A designer holandesa Iris van Herpen criou um vestido metamórfico coberto com milhares de esferas de vidro iridescentes que parecem se desintegrar gradualmente, usado pela atleta Eileen Gu no Met Gala.",
+      "why_it_matters": "Van Herpen continua redefinindo os limites entre moda, arte e tecnologia. Para profissionais criativos, ela representa o futuro: usar tecnologia não para facilitar, mas para criar o impossível. É inspiração pura para quem trabalha com experiências visuais.",
+      "brazilian_angle": "No Brasil, designers como Ronaldo Fraga e Alexandre Herchcovitch já flertaram com essa fusão arte-tecnologia, mas ainda falta investimento em pesquisa e desenvolvimento para competir nesse nível de inovação material.",
+      "content_angle": "Use como exemplo de como tecnologia pode ser poética — uma resposta para quem acha que inovação sempre desumaniza a criatividade.",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Shopping abandonado em Lisboa vira campus de inovação verde",
+      "source": "Dezeen",
+      "date": "2026-05-05",
+      "link": "https://www.dezeen.com/2026/05/05/oriente-green-campus-portugal-kpf-saraivaassociados/",
+      "what_happened": "Os estúdios KPF e Saraiva+Associados transformaram a estrutura de um shopping abandonado em Moscavide, norte de Lisboa, no Oriente Green Campus — um complexo de escritórios com terraços verdes e pátios.",
+      "why_it_matters": "É arquitetura como storytelling: transformar ruína urbana em símbolo de renovação. Para profissionais de comunicação, projetos assim mostram como narrativa pode ressignificar espaços e criar valor onde só havia abandono.",
+      "brazilian_angle": "O Brasil tem dezenas de shoppings fantasmas e prédios abandonados em centros urbanos. Projetos como esse poderiam revitalizar áreas degradadas — mas falta visão integrada entre arquitetura, urbanismo e comunicação para vender essas transformações.",
+      "content_angle": "Explore como contar a história de uma transformação urbana — da ruína ao símbolo de inovação.",
+      "focus_area": "Inovação & Futurismo"
+    },
+    {
+      "title": "Redes de IA desenvolvem hierarquias naturais — e isso é um problema",
+      "source": "Hackernoon",
+      "date": "2026-05-05",
+      "link": "https://hackernoon.com/a-few-ai-agents-end-up-doing-80percent-of-the-work-that-is-a-design-problem",
+      "what_happened": "Estudo mostra que redes de agentes de IA naturalmente desenvolvem distribuições de poder: poucos agentes acumulam a maioria das conexões e trabalho, enquanto a maioria fica na periferia. Isso acontece porque sistemas baseados em reputação criam feedback loops não programados.",
+      "why_it_matters": "Para quem trabalha com IA e automação de conteúdo, isso é fundamental: sistemas aparentemente democráticos criam hierarquias invisíveis. Significa que suas ferramentas de IA podem estar concentrando poder em poucos 'nós' — criando pontos únicos de falha.",
+      "brazilian_angle": "No Brasil, onde já temos concentração extrema de mídia e plataformas, esse fenômeno pode amplificar desigualdades existentes. Agências que não entenderem essas dinâmicas podem ficar dependentes de poucos fornecedores de IA dominantes.",
+      "content_angle": "Transforme em alerta: 'Por que sua estratégia de IA pode estar criando novos monopólios sem você perceber'.",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Adweek revela Creative 100 2026: inovadores de mídia sabem como vencer",
+      "source": "Adweek",
+      "date": "2026-05-05",
+      "link": "https://www.adweek.com/creativity/the-2026-creative-100-media-tv-streaming-innovators-know-how-to-win/",
+      "what_happened": "A Adweek divulgou sua lista Creative 100 de 2026, destacando inovadores em mídia, TV e streaming que conseguem equilibrar relevância cultural com resultados financeiros.",
+      "why_it_matters": "A lista da Adweek sempre antecipa tendências globais que chegam ao Brasil com 1-2 anos de atraso. Para profissionais brasileiros, é um mapa do que estará em alta aqui em 2027-2028 — especialmente em streaming e branded content.",
+      "brazilian_angle": "Nomes brasileiros raramente aparecem nessas listas globais, mas as tendências identificadas sempre influenciam nosso mercado. É hora de estudar esses cases para adaptar estratégias locais antes que a concorrência desperte.",
+      "content_angle": "Use para criar conteúdo sobre 'tendências que vão dominar o Brasil em 2027' — baseado em evidências, não achismos.",
+      "focus_area": "Cultura & Tendências"
+    }
+  ],
+  "editorial_note": "O dia trouxe sinais claros de que estamos numa virada estrutural: a MIT fecha sua revista de gestão após 67 anos apostando em conteúdo digital, enquanto os EUA criam o primeiro cargo de arquiteto de marca nacional. Ao mesmo tempo, a IA continua reorganizando o trabalho — mas quem lidera essa transformação faz toda a diferença.",
+  "generation_timestamp": "2026-05-05 11:14 UTC"
+}
