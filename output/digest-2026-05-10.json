@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-10",
+  "stories": [
+    {
+      "title": "Google instala modelo de IA de 4GB no seu Mac sem pedir licença",
+      "source": "Fast Company",
+      "date": "2026-05-09",
+      "link": "https://www.fastcompany.com/91539366/heres-how-i-finally-got-googles-uninvited-4gb-ai-model-off-my-mac",
+      "what_happened": "O Google Chrome tem baixado automaticamente o modelo Gemini Nano de mais de 4GB nos computadores dos usuários, sem consentimento ou notificação. Um pesquisador de segurança descobriu a prática e ensinou como remover o arquivo.",
+      "why_it_matters": "Isso expõe como as big techs estão forçando IA goela abaixo dos usuários, ocupando espaço precioso em máquinas de trabalho. Para profissionais criativos que dependem de performance e armazenamento, é um alerta sobre controle de dados e recursos computacionais.",
+      "brazilian_angle": "No Brasil, onde muitos criativos ainda trabalham com máquinas mais antigas e espaço limitado, essa prática é ainda mais problemática. A LGPD deveria proteger contra instalações não autorizadas, mas a fiscalização ainda é fraca.",
+      "content_angle": "Faça um tutorial de como verificar e limpar modelos de IA não autorizados no seu computador — conteúdo útil que vai viralizar entre criativos.",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Maury Povich sai da aposentadoria para anunciar ferramenta de IA criativa",
+      "source": "Fast Company",
+      "date": "2026-05-09",
+      "link": "https://www.fastcompany.com/91539171/maury-povich-air-ai-girlfriend",
+      "what_happened": "O apresentador de 87 anos, aposentado desde 2022, protagoniza campanha para a Air, empresa de serviços de IA em nuvem voltada para criativos. A escolha inusitada mistura nostalgia da TV com tecnologia de ponta.",
+      "why_it_matters": "Mostra como marcas de IA estão apostando em figuras inesperadas para humanizar tecnologia complexa. É uma estratégia criativa que foge do óbvio 'CEO tech jovem' e pode inspirar campanhas brasileiras.",
+      "brazilian_angle": "Imaginem Silvio Santos ou Faustão fazendo propaganda de IA — seria o mesmo impacto. Brands brasileiras ainda são tímidas em usar personalidades clássicas para tecnologia, perdendo oportunidades de storytelling único.",
+      "content_angle": "Analise como personalidades 'improváveis' podem ser mais eficazes que influencers óbvios em campanhas de tecnologia.",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Agentes de IA viram seus novos colegas de trabalho — prepare-se",
+      "source": "Fast Company",
+      "date": "2026-05-09",
+      "link": "https://www.fastcompany.com/91537704/ai-agent-your-new-co-worker-heres-how-make-best-it",
+      "what_happened": "JPMorgan Chase e outras empresas anunciam que cada funcionário terá um assistente de IA personalizado. Os agentes farão papel de assistente, agendador, coach e mais, mudando radicalmente a dinâmica de trabalho.",
+      "why_it_matters": "Para profissionais criativos, isso significa repensar completamente fluxos de trabalho e habilidades. Quem não se adaptar vai ficar para trás. A questão não é mais 'se' a IA vai chegar, mas como trabalhar com ela.",
+      "brazilian_angle": "Empresas brasileiras estão atrasadas nessa corrida — enquanto bancos americanos já implementam, nosso mercado ainda discute se IA é modinha. Agências e produtoras que se moverem primeiro terão vantagem competitiva brutal.",
+      "content_angle": "Crie um guia prático de como profissionais criativos podem se preparar para trabalhar com agentes de IA — desde mindset até ferramentas.",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "Drones de entrega voam sobre Nova York sem ninguém saber se fazem sentido",
+      "source": "Wired",
+      "date": "2026-05-10",
+      "link": "https://www.wired.com/story/do-city-delivery-drones-make-sense-no-one-knows-but-theyre-flying-over-nyc/",
+      "what_happened": "Drones de entrega começaram a operar no espaço aéreo mais movimentado dos EUA, em Nova York, mesmo sem consenso sobre sua viabilidade econômica ou logística em ambientes urbanos densos.",
+      "why_it_matters": "Para produtores audiovisuais, isso abre novas possibilidades de captação aérea urbana e storytelling. Também sinaliza mudanças regulatórias que podem chegar ao Brasil, impactando produção de conteúdo com drones.",
+      "brazilian_angle": "No Brasil, a regulamentação de drones ainda é restritiva para áreas urbanas. Quando essa tecnologia chegar — provavelmente em 2-3 anos — vai revolucionar entregas de equipamentos para sets e locações remotas.",
+      "content_angle": "Explore como drones de entrega podem mudar a logística de produção audiovisual — desde transporte de equipamentos até novas possibilidades narrativas.",
+      "focus_area": "Inovação & Futurismo"
+    },
+    {
+      "title": "Casa circular em Lombok usa paredes curvas para maximizar vista 360°",
+      "source": "Dezeen",
+      "date": "2026-05-10",
+      "link": "https://www.dezeen.com/2026/05/10/house-kala-caceres-tous-bali/",
+      "what_happened": "O escritório Caceres + Tous projetou uma residência circular na Indonésia, com paredes curvas revestidas de argamassa texturizada cor terracota, aproveitando vistas panorâmicas do mar e floresta.",
+      "why_it_matters": "Arquitetura circular está ganhando força como tendência de design, influenciando desde cenografia até design de interiores para conteúdo. A estética orgânica e sustentável ressoa com valores contemporâneos.",
+      "brazilian_angle": "No Brasil, vemos essa tendência chegando em projetos residenciais de alto padrão e cenários para publicidade. A estética 'orgânica' está dominando campanhas de lifestyle e wellness brands.",
+      "content_angle": "Analise como formas orgânicas e circulares estão dominando design contemporâneo — da arquitetura aos layouts de redes sociais.",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Cibersegurança em 2026: 78% das empresas não têm skills internos necessários",
+      "source": "Hackernoon",
+      "date": "2026-05-10",
+      "link": "https://hackernoon.com/cybersecurity-in-2026-and-beyond-trends-everyone-should-know?source=rss",
+      "what_happened": "Relatório mostra que ameaças cibernéticas crescem mais rápido que a força de trabalho para combatê-las. IA generativa está tornando ataques mais baratos e difíceis de detectar, enquanto a autenticação evolui além de senhas.",
+      "why_it_matters": "Para agências e produtoras que lidam com dados de clientes e propriedade intelectual, a lacuna de segurança é um risco existencial. Profissionais criativos precisam entender esses riscos para proteger seus trabalhos e clientes.",
+      "brazilian_angle": "O Brasil já sofre com falta de profissionais de cibersegurança, e agências locais são alvos fáceis. Com a chegada da IA generativa facilitando ataques, pequenas e médias empresas criativas estão especialmente vulneráveis.",
+      "content_angle": "Crie um checklist de segurança digital específico para profissionais criativos — desde proteção de arquivos até cuidados com IA generativa.",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Escritório em Austin ganha reforma que revitaliza design dos anos 80",
+      "source": "Dezeen",
+      "date": "2026-05-09",
+      "link": "https://www.dezeen.com/2026/05/09/600-congress-avenue-austin-texas-lake-flato/",
+      "what_happened": "O Lake Flato renovou um edifício comercial de 31 mil pés quadrados em Austin, modernizando o design dos anos 80 e melhorando sua presença no centro da cidade com novos espaços de convivência.",
+      "why_it_matters": "A tendência de revitalizar arquitetura corporativa dos anos 80-90 está forte, influenciando cenografia, design de sets e estética visual. É uma referência importante para profissionais que trabalham com ambientes corporativos.",
+      "brazilian_angle": "No Brasil, muitos edifícios comerciais dos anos 80-90 estão passando por reformas similares. São Paulo e Rio lideram essa tendência, criando oportunidades para profissionais de design de interiores e produção audiovisual.",
+      "content_angle": "Explore como a estética 'neo-80s' está dominando espaços corporativos e como isso impacta produção de conteúdo para B2B.",
+      "focus_area": "Cultura & Tendências"
+    }
+  ],
+  "editorial_note": "A semana começou com IA dominando as manchetes — desde Google instalando modelos de 4GB sem avisar até Maury Povich virando garoto-propaganda de ferramenta criativa. Enquanto isso, o mercado de trabalho criativo se prepara para conviver com agentes de IA como 'colegas de trabalho'. É o novo normal batendo na porta.",
+  "generation_timestamp": "2026-05-10 10:58 UTC"
+}
