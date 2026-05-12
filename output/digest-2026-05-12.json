@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-12",
+  "stories": [
+    {
+      "title": "IA assume café inteiro na Suécia — baristas humanos só servem o pedido",
+      "source": "Fast Company",
+      "date": "2026-05-11",
+      "link": "https://www.fastcompany.com/91539800/ai-artificial-intelligence-sweden",
+      "what_happened": "A startup Andon Labs colocou um agente de IA chamado 'Mona' para gerenciar todas as operações de um café experimental em Estocolmo. Humanos ainda fazem o café, mas a IA controla desde pedidos até gestão de estoque usando o Gemini do Google.",
+      "why_it_matters": "Não é mais sobre IA como ferramenta — é sobre IA como gestor. Para agências e produtoras brasileiras, isso antecipa um futuro onde sistemas autônomos podem gerenciar projetos inteiros, deixando humanos apenas para execução criativa. A pergunta não é 'se', mas 'quando' isso chega ao Brasil.",
+      "brazilian_angle": "Considerando nossa velocidade de adoção tecnológica, esse modelo deve aparecer primeiro em São Paulo até 2027, provavelmente em cafeterias de coworking ou espaços criativos da Vila Madalena.",
+      "content_angle": "Post no LinkedIn: 'IA já é chefe de café na Suécia. Sua agência está preparada para ter um algoritmo como account director?'",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Nova marca abre sem marketing nem redes sociais — conta com você para postar",
+      "source": "Fast Company",
+      "date": "2026-05-11",
+      "link": "https://www.fastcompany.com/91540063/erewhon-vs-laurel-supply-west-hollywood-hypebeast-grocer-wars",
+      "what_happened": "Laurel Supply abriu em West Hollywood como concorrente direto do Erewhon, mas sem fazer marketing próprio ou ter redes sociais. A estratégia é contar 100% com posts orgânicos dos clientes para gerar buzz.",
+      "why_it_matters": "É o anti-marketing levado ao extremo: zero investimento em mídia, apostando que o produto e ambiente são tão instagramáveis que o marketing se faz sozinho. Para profissionais de comunicação, é um case radical de como marcas podem inverter totalmente a lógica tradicional de lançamento.",
+      "brazilian_angle": "Essa estratégia já funciona no Brasil com lugares como a Padoca do Maní ou alguns bares de São Paulo que explodem sem marketing formal, só pela força do boca a boca digital.",
+      "content_angle": "Thread no Twitter: 'Marca que abre sem Instagram nem marketing. Genialidade ou suicídio comercial? Vamos analisar...'",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "Criadores de 'Hacks' odeiam IA — e explicam por quê",
+      "source": "Wired",
+      "date": "2026-05-12",
+      "link": "https://www.wired.com/story/the-big-interview-podcast-hacks-cocreators-paul-w-downs-lucia-aniello/",
+      "what_happened": "Paul W. Downs e Lucia Aniello, criadores da série 'Hacks', deram entrevista falando sobre consolidação de mídia, censura e por que consideram IA 'profundamente perturbadora' para a criação audiovisual.",
+      "why_it_matters": "Enquanto o mercado abraça IA, showrunners de sucesso estão levantando bandeira contra. Para produtores brasileiros, é um lembrete de que resistência à IA pode se tornar posicionamento criativo — e até vantagem competitiva para quem quer se diferenciar como '100% humano'.",
+      "brazilian_angle": "No Brasil, onde a produção audiovisual ainda luta por orçamentos dignos, o debate sobre IA versus criatividade humana pode definir como o mercado se posiciona globalmente nos próximos anos.",
+      "content_angle": "Post no Instagram: 'Showrunners de sucesso odeiam IA. E se a resistência à tecnologia virar o novo premium?'",
+      "focus_area": "Cultura & Tendências"
+    },
+    {
+      "title": "Guerra no Irã força marca japonesa a mudar embalagem para preto e branco",
+      "source": "Dezeen",
+      "date": "2026-05-12",
+      "link": "https://www.dezeen.com/2026/05/12/calbee-crisp-packaging-colour-iran-war-material-shortages/",
+      "what_happened": "A Calbee anunciou que vai temporariamente usar apenas preto e branco em 14 produtos devido à 'instabilidade no fornecimento de certas matérias-primas' causada pela guerra no Irã.",
+      "why_it_matters": "Conflitos geopolíticos já estão forçando redesigns em tempo real. Para designers e agências brasileiras, é um alerta de que cadeias globais de suprimento podem quebrar identidades visuais da noite pro dia. Flexibilidade de design não é mais luxo, é necessidade.",
+      "brazilian_angle": "O Brasil, dependente de importações para tintas e materiais gráficos, pode enfrentar situação similar. Agências inteligentes já deveriam estar criando versões 'de emergência' das marcas dos clientes.",
+      "content_angle": "Story no Instagram: 'Guerra muda design de embalagem no Japão. Sua marca tem plano B se faltar tinta colorida?'",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Loja da Gramicci em Londres gira em torno de shorts gigantes de 2,5 metros",
+      "source": "Dezeen",
+      "date": "2026-05-12",
+      "link": "https://www.dezeen.com/2026/05/12/east-london-gramicci-store-jumbo-shorts/",
+      "what_happened": "A agência Steep Learning Group criou uma escultura de 2,5 metros de altura de um par de shorts listrados como mascote da segunda loja da Gramicci em Londres, querendo emular 'um donut gigante na frente de uma loja de donuts'.",
+      "why_it_matters": "Retail físico está virando teatro puro. Para profissionais de experiência e design de marca no Brasil, mostra que loja não vende mais produto — vende momento instagramável. O produto gigante como âncora visual pode ser a nova regra do varejo.",
+      "brazilian_angle": "Essa estratégia já aparece timidamente no Brasil em lojas como a Farm ou algumas concept stores de São Paulo, mas ainda com muito medo de ousar.",
+      "content_angle": "Reel no Instagram: 'Loja que gira em torno de shorts gigantes. O futuro do varejo é virar cenário?'",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Modelos de linguagem pequenos têm futuro trilionário",
+      "source": "Hackernoon",
+      "date": "2026-05-12",
+      "link": "https://hackernoon.com/small-language-models-have-a-trillion-dollar-future?source=rss",
+      "what_happened": "Artigo argumenta que Small Language Models (SLMs) estão substituindo Large Language Models (LLMs) em ambientes com restrições de privacidade e orçamento, especialmente para empresas e empreendedores.",
+      "why_it_matters": "Enquanto todo mundo fala de ChatGPT e Claude, a real revolução pode estar nos modelos menores e mais baratos. Para agências brasileiras com orçamento apertado, SLMs podem democratizar IA de verdade — sem depender de big techs americanas.",
+      "brazilian_angle": "Para o mercado brasileiro, sempre sensível a preço, SLMs podem ser o caminho para IA acessível. Startups nacionais de IA deveriam estar de olho nessa oportunidade.",
+      "content_angle": "Post no LinkedIn: 'Esqueça ChatGPT. O futuro trilionário está nos modelos pequenos de IA. Entenda por quê.'",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Hailey Bieber revela as regras por trás do sucesso da marca Rhode",
+      "source": "Fast Company",
+      "date": "2026-05-12",
+      "link": "https://www.fastcompany.com/91538962/rhode-brand-strategy",
+      "what_happened": "Hailey Bieber compartilhou estratégias de branding da Rhode, incluindo como a marca quebrou sua identidade visual minimalista para o lançamento de produtos para espinhas, usando billboard rosa no caminho para Coachella.",
+      "why_it_matters": "Rhode mostra como marcas podem quebrar a própria identidade visual estrategicamente sem perder coerência. Para profissionais de branding no Brasil, é masterclass em flexibilidade criativa — saber quando seguir manual da marca e quando quebrá-lo conscientemente.",
+      "brazilian_angle": "No Brasil, onde marcas ainda têm medo de sair do manual, Rhode prova que identidade forte permite experimentação. Marcas brasileiras poderiam ser mais corajosas.",
+      "content_angle": "Carrossel no Instagram: '5 lições de branding da Rhode que toda marca brasileira deveria copiar'",
+      "focus_area": "Negócios Criativos"
+    }
+  ],
+  "editorial_note": "Hoje o mercado criativo global está sendo redesenhado por três forças: IA assumindo operações inteiras, marcas apostando no anti-marketing como estratégia, e a guerra no Irã já impactando cadeias de suprimento de design. Para quem trabalha com comunicação no Brasil, são sinais claros de que 2026 será o ano em que paramos de falar sobre transformação digital e começamos a viver suas consequências práticas.",
+  "generation_timestamp": "2026-05-12 11:51 UTC"
+}
