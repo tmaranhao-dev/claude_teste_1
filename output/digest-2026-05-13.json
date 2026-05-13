@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-13",
+  "stories": [
+    {
+      "title": "Agentes de IA custam US$ 2 mil por usuário e matam a promessa das startups",
+      "source": "Hackernoon",
+      "date": "2026-05-13",
+      "link": "https://hackernoon.com/the-silicon-paywall-why-startups-are-losing-the-agentic-arms-race?source=rss",
+      "what_happened": "Agentes de IA de alto contexto agora custam mais de US$ 2 mil por usuário, tornando impossível para startups menores cumprir a promessa de menor headcount e maior produtividade. O custo proibitivo está criando uma barreira de entrada que favorece apenas grandes corporações.",
+      "why_it_matters": "Para agências e produtoras brasileiras que apostaram na IA para reduzir custos operacionais, essa realidade muda completamente a equação. A democratização da IA que todos esperávamos pode estar se transformando em mais um fator de concentração de mercado nas mãos de quem tem capital.",
+      "brazilian_angle": "No Brasil, onde orçamentos de comunicação já são apertados, essa barreira de preço pode atrasar ainda mais a adoção de IA avançada pelas agências locais, criando uma defasagem competitiva com mercados desenvolvidos.",
+      "content_angle": "Faça um post no LinkedIn questionando: 'A IA vai democratizar a criatividade ou criar uma nova elite tecnológica?'",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "IKEA aposta na diversão para revitalizar o design escandinavo",
+      "source": "Fast Company",
+      "date": "2026-05-13",
+      "link": "https://www.fastcompany.com/91541083/ikeas-newest-furniture-makes-scandinavian-design-fun-again",
+      "what_happened": "A IKEA lançou uma nova coleção que abandona o minimalismo sério do design escandinavo tradicional, apostando em peças coloridas e lúdicas como bancos que balançam e luminárias com 'cotovelos' transformáveis. A marca está produzindo essas peças em um estúdio do tamanho de um cinema na Suécia.",
+      "why_it_matters": "Essa mudança sinaliza uma virada cultural importante: depois de décadas de minimalismo, o mercado está pedindo personalidade e diversão nos produtos. Para profissionais de branding e design, é um lembrete de que até as marcas mais estabelecidas precisam reinventar sua linguagem visual.",
+      "brazilian_angle": "No Brasil, onde o design sempre teve mais cor e personalidade que o nórdico, essa tendência pode acelerar parcerias entre a IKEA e designers locais, além de influenciar outras marcas de móveis a abandonarem o 'sério demais'.",
+      "content_angle": "Crie um carrossel no Instagram mostrando como o 'design divertido' está voltando e por que isso importa para marcas brasileiras.",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Demi Moore e o debate equivocado sobre IA em Hollywood",
+      "source": "Fast Company",
+      "date": "2026-05-13",
+      "link": "https://www.fastcompany.com/91541141/demi-moore-ai-debate-missing-the-point",
+      "what_happened": "Demi Moore, jurada em Cannes, defendeu uma abordagem menos combativa em relação à IA em Hollywood, argumentando que 'oposição gera oposição'. Suas declarações geraram backlash nas redes sociais, mas o artigo argumenta que o debate está perdendo o foco real da questão.",
+      "why_it_matters": "O audiovisual brasileiro precisa de uma discussão madura sobre IA, não de polarização importada. Enquanto Hollywood briga, nosso mercado pode se posicionar de forma mais estratégica, definindo como usar IA para potencializar, não substituir, o talento criativo nacional.",
+      "brazilian_angle": "O Brasil tem a oportunidade de liderar uma abordagem mais equilibrada sobre IA no audiovisual, especialmente considerando nosso histórico de adaptação criativa com orçamentos menores e a força da nossa indústria de conteúdo.",
+      "content_angle": "Escreva um thread no Twitter sobre como o Brasil pode evitar a polarização sobre IA que está travando Hollywood.",
+      "focus_area": "Cultura & Tendências"
+    },
+    {
+      "title": "KitKat cria embalagem que bloqueia celular para forçar 'pausa digital'",
+      "source": "Dezeen",
+      "date": "2026-05-13",
+      "link": "https://www.dezeen.com/2026/05/13/kitkats-break-mode-smartphone-packaging/",
+      "what_happened": "A Ogilvy Colômbia criou uma embalagem especial do KitKat que funciona como uma 'prisão' para smartphones, bloqueando sinais quando o chocolate é removido. A campanha 'Break Mode' usa a embalagem como uma gaiola de Faraday para forçar uma pausa digital.",
+      "why_it_matters": "É design de packaging funcionando como produto em si — uma tendência que vai explodir no Brasil. Para criativos, mostra como transformar conceitos abstratos (desconexão digital) em soluções físicas tangíveis que geram buzz orgânico.",
+      "brazilian_angle": "No Brasil, onde o vício em celular é epidêmico e o marketing de experiência está em alta, essa abordagem pode inspirar campanhas locais que usem packaging como ferramenta de mudança comportamental, não apenas proteção do produto.",
+      "content_angle": "Faça um post no LinkedIn perguntando: 'Que outros produtos brasileiros poderiam usar packaging funcional para resolver problemas reais?'",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "The Ordinary zomba do marketing de luxo com supermercado pop-up",
+      "source": "Creative Review",
+      "date": "2026-05-13",
+      "link": "https://www.creativereview.co.uk/the-ordinary-markup-marche-pop-up-supermarket-uncommon/",
+      "what_happened": "A Uncommon Creative Studio criou o 'Markup Marché' para The Ordinary, um supermercado pop-up que vende produtos básicos com preços absurdamente inflacionados, satirizando o markup excessivo da indústria de beleza de luxo.",
+      "why_it_matters": "É uma masterclass em como usar ironia e experiência física para fazer crítica social virar marketing. Para o mercado brasileiro, mostra como marcas podem se posicionar contra práticas da indústria sem soar preachy — usando humor inteligente como arma.",
+      "brazilian_angle": "No Brasil, onde o consumidor está cada vez mais consciente sobre preços inflacionados (especialmente pós-pandemia), essa abordagem pode inspirar campanhas que usem transparência e humor para construir confiança com o público.",
+      "content_angle": "Crie um carrossel no Instagram mostrando exemplos de como marcas brasileiras poderiam usar ironia para criticar práticas da própria indústria.",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "IA da DeepMind descobre formas mais rápidas de multiplicar matrizes",
+      "source": "Hackernoon",
+      "date": "2026-05-13",
+      "link": "https://hackernoon.com/reinforcement-learning-breakthrough-ai-designs-faster-ways-to-multiply-matrices?source=rss",
+      "what_happened": "O AlphaTensor da DeepMind usa aprendizado por reforço para descobrir algoritmos mais eficientes de multiplicação de matrizes, melhorando métodos que existem há décadas. O sistema trata a multiplicação como um jogo e encontra estratégias otimizadas para diferentes tamanhos de matriz.",
+      "why_it_matters": "Pode parecer técnico demais, mas isso vai acelerar drasticamente processamento de vídeo, renderização 3D e efeitos visuais. Para produtoras brasileiras, significa que ferramentas de pós-produção vão ficar mais rápidas e baratas nos próximos 2-3 anos.",
+      "brazilian_angle": "O Brasil, que já compete globalmente em VFX e animação com orçamentos menores, pode se beneficiar enormemente dessas otimizações — especialmente estúdios que dependem de cloud computing para projetos grandes.",
+      "content_angle": "Escreva um post explicando como avanços 'invisíveis' em IA vão impactar a produção audiovisual brasileira nos próximos anos.",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Feira de móveis de NY muda para novembro após 35 anos em maio",
+      "source": "Dezeen",
+      "date": "2026-05-12",
+      "link": "https://www.dezeen.com/2026/05/12/icff-new-york-november-2027/",
+      "what_happened": "A International Contemporary Furniture Fair de Nova York vai sair de maio para novembro a partir de 2027, depois de mais de 35 anos. A mudança acontece porque o calendário global de design ficou muito 'comprimido' na primavera do hemisfério norte.",
+      "why_it_matters": "Essa mudança vai reorganizar todo o calendário global de lançamentos de design e pode afetar quando tendências chegam ao Brasil. Para profissionais que acompanham feiras internacionais, significa repensar cronogramas de cobertura e planejamento de conteúdo.",
+      "brazilian_angle": "Para o mercado brasileiro de design, que tradicionalalmente segue tendências americanas e europeias com 6-12 meses de atraso, essa mudança pode acelerar ou atrasar a chegada de novidades, dependendo de como as marcas se adaptarem.",
+      "content_angle": "Faça um post no LinkedIn sobre como mudanças no calendário global de feiras afetam o timing de tendências no Brasil.",
+      "focus_area": "Negócios Criativos"
+    }
+  ],
+  "editorial_note": "O dia trouxe sinais claros de que a IA está saindo da fase experimental para criar barreiras econômicas reais — enquanto isso, o design físico volta a apostar na diversão e na humanização dos espaços. Entre custos proibitivos de agentes de IA e campanhas que zombam do marketing inflacionado, o mercado criativo precisa navegar entre a promessa tecnológica e a realidade dos orçamentos.",
+  "generation_timestamp": "2026-05-13 12:00 UTC"
+}
