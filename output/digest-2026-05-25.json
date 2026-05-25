@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-25",
+  "stories": [
+    {
+      "title": "Relatório revela como equipes de design estão se adaptando à IA em 2026",
+      "source": "Sidebar",
+      "date": "2026-05-25",
+      "link": "https://stateofaidesign.com/",
+      "what_happened": "Novo relatório mapeia como equipes de design globais estão integrando IA em suas ferramentas, processos criativos e estruturas organizacionais. O estudo mostra adaptações práticas em diferentes áreas do design.",
+      "why_it_matters": "Para criativos brasileiros, este é o termômetro definitivo de como a profissão está mudando. Não é mais questão de 'se' a IA vai impactar o design, mas 'como' se posicionar nessa transformação sem perder a essência criativa.",
+      "brazilian_angle": "Agências e estúdios brasileiros que ainda resistem à IA estão ficando para trás. Os dados internacionais servem como espelho para avaliar onde estamos na curva de adoção tecnológica.",
+      "content_angle": "Faça um comparativo: 'Como o mercado brasileiro de design se compara às tendências globais de IA'",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Por que adaptar sites para mobile nunca é só sobre fazer as coisas menores",
+      "source": "Sidebar",
+      "date": "2026-05-25",
+      "link": "https://bit.ly/side-mag4",
+      "what_happened": "Designer de marketing da Readymag explica por que a adaptação mobile vai muito além de redimensionar elementos. Tela menor exige narrativa diferente, hierarquia repensada e experiência redesenhada.",
+      "why_it_matters": "Com o mobile representando mais de 70% do tráfego no Brasil, ainda vemos marcas tratando a versão mobile como afterthought. Essa mentalidade custa conversões e credibilidade.",
+      "brazilian_angle": "O mercado brasileiro, mobile-first por necessidade, deveria liderar essas práticas, mas muitas agências ainda entregam sites desktop 'espremidos' para mobile.",
+      "content_angle": "Crie um checklist: 'Sinais de que sua estratégia mobile precisa de uma reformulação urgente'",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "IA está criando mais trabalho para humanos, não menos",
+      "source": "Sidebar",
+      "date": "2026-05-25",
+      "link": "https://every.to/p/after-automation",
+      "what_happened": "Análise mostra que o progresso da IA está gerando mais demanda por trabalho humano especializado, contrariando previsões de desemprego em massa. A automação cria novas camadas de complexidade que exigem supervisão humana.",
+      "why_it_matters": "Para profissionais de comunicação, isso significa que o futuro não é sobre ser substituído pela IA, mas sobre evoluir para trabalhar com ela. Quem não desenvolver essa competência ficará obsoleto.",
+      "brazilian_angle": "No Brasil, onde a adoção de IA ainda é desigual, profissionais que dominarem essa colaboração homem-máquina terão vantagem competitiva significativa nos próximos anos.",
+      "content_angle": "Explore: 'As novas profissões que surgiram com a IA — e como se preparar para elas'",
+      "focus_area": "Inovação & Futurismo"
+    },
+    {
+      "title": "Guerra comercial EUA-China pode estar fortalecendo a independência tecnológica chinesa",
+      "source": "Hackernoon",
+      "date": "2026-05-25",
+      "link": "https://hackernoon.com/us-export-controls-may-be-training-chinas-ai-stack-to-survive-without-nvidia?source=rss",
+      "what_happened": "Controles de exportação americanos sobre chips de IA estão acelerando o desenvolvimento de um ecossistema tecnológico chinês independente, baseado em hardware Huawei e modelos DeepSeek. A competição deixa de ser sobre superioridade técnica e passa a ser sobre autonomia tecnológica.",
+      "why_it_matters": "Essa fragmentação tecnológica global vai impactar diretamente ferramentas e plataformas que usamos no Brasil. Prepare-se para um mundo com dois ecossistemas de IA competindo.",
+      "brazilian_angle": "O Brasil, historicamente dependente de tecnologia importada, precisa definir sua posição nessa guerra fria tecnológica. Ficar neutro pode significar acesso limitado às melhores ferramentas de ambos os lados.",
+      "content_angle": "Analise: 'Como a guerra tech EUA-China vai afetar as ferramentas que você usa todo dia'",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "IA está sabotando tanto candidatos quanto recrutadores no mercado de trabalho",
+      "source": "Fast Company",
+      "date": "2026-05-25",
+      "link": "https://www.fastcompany.com/91547078/how-ai-keeps-both-jobseekers-and-employers-from-filling-roles",
+      "what_happened": "Candidatos usam IA para otimizar currículos com palavras-chave, enquanto recrutadores dependem de sistemas automatizados para filtrar aplicações. O resultado é um impasse tecnológico onde ninguém consegue se conectar efetivamente.",
+      "why_it_matters": "Para profissionais criativos, isso significa que networking e portfólio continuam sendo diferenciais cruciais. A IA pode ajudar na aplicação, mas não substitui relacionamentos genuínos.",
+      "brazilian_angle": "No mercado brasileiro, onde networking sempre foi fundamental, essa tendência reforça a importância das conexões pessoais e da reputação profissional construída ao longo do tempo.",
+      "content_angle": "Desmistifique: 'Por que seu currículo otimizado por IA pode estar te prejudicando'",
+      "focus_area": "Negócios Criativos"
+    },
+    {
+      "title": "Apps de relacionamento gay focados em privacidade querem destronar o Grindr",
+      "source": "Wired",
+      "date": "2026-05-25",
+      "link": "https://www.wired.com/story/these-privacy-conscious-gay-dating-apps-want-to-dethrone-grindr/",
+      "what_happened": "Nova geração de aplicativos de relacionamento gay surge com foco em privacidade e comunidade, desafiando o domínio do Grindr. Esses apps oferecem alternativas orientadas pela própria comunidade em resposta às críticas sobre Big Dating.",
+      "why_it_matters": "Essa tendência reflete uma mudança maior: usuários estão priorizando privacidade e autenticidade sobre conveniência. Para marcas e criadores de conteúdo, é um sinal de que o público quer experiências mais genuínas e seguras.",
+      "brazilian_angle": "No Brasil, onde questões de segurança digital e proteção de dados LGBTQIA+ são especialmente sensíveis, essa tendência pode chegar com força nos próximos meses.",
+      "content_angle": "Explore: 'O que o movimento anti-Big Dating ensina sobre construção de comunidades autênticas'",
+      "focus_area": "Cultura & Tendências"
+    },
+    {
+      "title": "Hacks simples para melhorar drasticamente sua performance em reuniões virtuais",
+      "source": "Hackernoon",
+      "date": "2026-05-25",
+      "link": "https://hackernoon.com/virtual-meeting-hacks-for-achieving-the-best-performance?source=rss",
+      "what_happened": "CTO da Coresee explica como pequenos ajustes técnicos — internet cabeada, fechar apps em segundo plano, atualizar software e otimizar compartilhamento de tela — podem transformar a qualidade e credibilidade em reuniões virtuais.",
+      "why_it_matters": "Em um mercado onde reuniões virtuais definem credibilidade profissional, esses detalhes técnicos são a diferença entre parecer amador ou profissional. Para freelancers e agências, isso impacta diretamente na conquista de clientes.",
+      "brazilian_angle": "Com a infraestrutura de internet brasileira ainda irregular, dominar essas técnicas é ainda mais crucial para profissionais que competem globalmente ou atendem clientes exigentes.",
+      "content_angle": "Crie um guia: 'Checklist técnico para nunca mais passar vergonha em call com cliente'",
+      "focus_area": "Negócios Criativos"
+    }
+  ],
+  "editorial_note": "O dia trouxe sinais claros de que a automação está criando mais trabalho para humanos, não menos — uma realidade que já bate à porta dos criativos brasileiros. Entre relatórios sobre IA no design, a guerra tecnológica sino-americana e apps que desafiam gigantes estabelecidos, o recado é claro: quem não se adaptar às novas ferramentas ficará para trás, mas quem apostar só na tecnologia também.",
+  "generation_timestamp": "2026-05-25 12:58 UTC"
+}
