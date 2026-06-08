@@ -1,0 +1,84 @@
+{
+  "date": "2026-06-08",
+  "stories": [
+    {
+      "title": "Alamo Drafthouse enfrenta revolta de clientes por trocar cardápio físico por QR codes obrigatórios",
+      "source": "Fast Company",
+      "date": "2026-06-08",
+      "link": "https://www.fastcompany.com/91551774/alamo-drafthouse-ceo-phone-ordering-policy",
+      "what_happened": "A rede de cinemas Alamo Drafthouse substituiu seu sistema tradicional de pedidos em papel por QR codes obrigatórios, forçando clientes a usar smartphones para pedir comida e bebida. A mudança gerou revolta massiva dos frequentadores, que veem a medida como invasiva e contrária à experiência cinematográfica.",
+      "why_it_matters": "Este caso expõe a tensão entre eficiência operacional e experiência do usuário que todo profissional de comunicação enfrenta hoje. Mostra como decisões aparentemente lógicas podem gerar backlash cultural quando ignoram o contexto emocional da marca. É um lembrete de que nem toda digitalização é bem-vinda.",
+      "brazilian_angle": "No Brasil, onde a resistência à digitalização forçada é ainda maior (vide a polêmica dos totens de autoatendimento no McDonald's), essa história serve de alerta para marcas que querem empurrar tecnologia sem considerar o público local.",
+      "content_angle": "Use este caso para discutir quando a inovação vira imposição — e como marcas podem testar mudanças sem alienar sua base.",
+      "focus_area": "Cultura & Tendências"
+    },
+    {
+      "title": "Cinco maneiras de usar IA além do prompt básico que todo criativo deveria dominar",
+      "source": "Fast Company",
+      "date": "2026-06-08",
+      "link": "https://www.fastcompany.com/91548859/intermediate-ai-tips",
+      "what_happened": "Artigo apresenta cinco técnicas intermediárias de IA que vão além dos prompts básicos, focando em integração real da tecnologia no workflow diário de profissionais criativos. O conteúdo aborda como usar IA de forma mais estratégica e produtiva.",
+      "why_it_matters": "A diferença entre quem usa IA como novidade e quem a integra como ferramenta profissional está se tornando um divisor de águas no mercado criativo. Dominar técnicas intermediárias não é mais opcional — é questão de competitividade.",
+      "brazilian_angle": "Profissionais brasileiros ainda estão na fase básica de IA, enquanto o mercado global já avança para usos intermediários. Essa defasagem pode custar caro em competitividade internacional nos próximos dois anos.",
+      "content_angle": "Transforme em um guia prático: 'Como sair do ChatGPT básico e usar IA como um profissional de verdade'.",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Massive Attack usa IA para simular vigilância digital e 'colher dados' da plateia em tempo real",
+      "source": "Dezeen",
+      "date": "2026-06-08",
+      "link": "https://www.dezeen.com/2026/06/08/massive-attack-united-visual-artists/",
+      "what_happened": "O estúdio United Visual Artists criou um sistema visual para shows do Massive Attack que usa reconhecimento facial customizado para identificar pessoas na plateia em tempo real, criando uma crítica visual aos sistemas de vigilância da empresa Palantir.",
+      "why_it_matters": "Este projeto mostra como artistas estão usando tecnologia de vigilância como ferramenta criativa e crítica social. Para profissionais audiovisuais, é um exemplo poderoso de como transformar ansiedades contemporâneas em experiências imersivas que geram conversa.",
+      "brazilian_angle": "Com o avanço das câmeras de reconhecimento facial no Brasil e debates sobre privacidade digital, esse tipo de arte crítica tem potencial enorme para festivais e eventos nacionais.",
+      "content_angle": "Explore como transformar questões sociais polêmicas em experiências visuais que engajam sem pregar — a arte como espelho da sociedade.",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Livro documenta coleção obsessiva de sacos de enjoo de aviões como arquivo de design esquecido",
+      "source": "Creative Review",
+      "date": "2026-06-08",
+      "link": "https://www.creativereview.co.uk/sicko-book-elizabeth-mccafferty-airline-sick-bag-collection/",
+      "what_happened": "A jornalista Elizabeth McCafferty documentou uma coleção de 40 anos de sacos de enjoo de companhias aéreas no livro 'Sicko', revelando um arquivo inesperado de design gráfico e identidade visual de nicho.",
+      "why_it_matters": "Este projeto exemplifica como design está em todos os lugares, até nos objetos mais mundanos. Para profissionais criativos, é um lembrete de que inspiração e história visual podem vir dos lugares mais inesperados — e que colecionismo obsessivo pode virar projeto cultural relevante.",
+      "brazilian_angle": "O Brasil tem uma rica história de design gráfico em objetos cotidianos (de rótulos de cachaça a embalagens de biscoito) que merece documentação similar. Há um livro esperando para ser feito sobre nossa própria cultura visual esquecida.",
+      "content_angle": "Use para falar sobre como encontrar design extraordinário no ordinário — e transformar obsessões pessoais em projetos profissionais.",
+      "focus_area": "Criatividade & Design"
+    },
+    {
+      "title": "Infraestrutura, não modelos, virou o novo gargalo da revolução da IA",
+      "source": "Hackernoon",
+      "date": "2026-06-08",
+      "link": "https://hackernoon.com/the-new-bottleneck-in-ai-is-not-the-model-it-is-the-infrastructure-beneath-it?source=rss",
+      "what_happened": "Análise aponta que o desenvolvimento de IA está sendo limitado não pela qualidade dos modelos, mas pela infraestrutura de hardware, energia e deployment. A FPX AI está construindo um marketplace para tornar poder computacional mais acessível.",
+      "why_it_matters": "Para agências e produtoras que dependem de IA, entender essas limitações de infraestrutura é crucial para planejar projetos e orçamentos. O 'tempo até computação' está virando métrica de negócio tão importante quanto criatividade.",
+      "brazilian_angle": "O Brasil, com infraestrutura de data centers ainda limitada, pode ficar para trás nesta corrida. Empresas nacionais precisam pensar em parcerias internacionais ou investir pesado em infraestrutura local nos próximos três anos.",
+      "content_angle": "Transforme em alerta estratégico: 'Por que sua agência pode ficar sem IA (e não é por falta de criatividade)'.",
+      "focus_area": "Tecnologia & IA"
+    },
+    {
+      "title": "Americanos perdem fé na excepcionalidade do país às vésperas do aniversário de 250 anos",
+      "source": "Fast Company",
+      "date": "2026-06-08",
+      "link": "https://www.fastcompany.com/91555429/new-poll-reveals-americans-feeling-about-u-s-250th-birthday-approaches",
+      "what_happened": "Pesquisa do AP-NORC revela que apenas um quarto dos americanos vê o país como excepcional, com jovens especialmente céticos sobre o futuro da democracia representativa, justamente quando o país se prepara para celebrar 250 anos.",
+      "why_it_matters": "Esta mudança de percepção sobre a 'marca América' impacta diretamente como marcas globais se posicionam e como narrativas culturais são construídas. Para profissionais de comunicação, é um sinal de que o soft power americano está em declínio — abrindo espaço para outras referências culturais.",
+      "brazilian_angle": "O Brasil pode se beneficiar deste vácuo cultural, posicionando-se como alternativa criativa e cultural mais autêntica. É momento de marcas brasileiras pensarem globalmente, não apenas seguirem tendências americanas.",
+      "content_angle": "Explore como o declínio da 'marca América' abre oportunidades para narrativas brasileiras ganharem espaço global.",
+      "focus_area": "Cultura & Tendências"
+    },
+    {
+      "title": "Adweek abre inscrições para prêmio de marketing experiencial em ano de crescimento do setor",
+      "source": "Adweek",
+      "date": "2026-06-08",
+      "link": "https://www.adweek.com/creativity/submissions-are-open-for-2026-adweek-experiential-awards/",
+      "what_happened": "O ADWEEK Experiential Awards, em sua 8ª edição, abriu inscrições para premiar ideias ousadas que estão moldando o futuro do marketing experiencial, desde experiências imersivas até ativações inovadoras.",
+      "why_it_matters": "O marketing experiencial está explodindo pós-pandemia, e prêmios como este definem os padrões globais do que funciona. Para agências brasileiras, é oportunidade de benchmark internacional e visibilidade global — especialmente considerando nossa tradição em eventos criativos.",
+      "brazilian_angle": "O Brasil sempre foi forte em experiências e eventos, mas precisa traduzir essa expertise para linguagem internacional. Agências nacionais deveriam estar se inscrevendo massivamente para mostrar nossa criatividade ao mundo.",
+      "content_angle": "Use para discutir como transformar cases brasileiros em narrativas que competem globalmente — e por que isso importa para o mercado local.",
+      "focus_area": "Negócios Criativos"
+    }
+  ],
+  "editorial_note": "O dia trouxe sinais claros de que a indústria criativa está navegando entre extremos: de um lado, a resistência cultural contra a digitalização forçada (como o caso Alamo Drafthouse), do outro, a corrida para dominar IA além do básico. Enquanto isso, projetos visuais ousados questionam vigilância digital e o mercado de experiências segue aquecido — tendências que chegam ao Brasil com força total.",
+  "generation_timestamp": "2026-06-08 14:03 UTC"
+}
